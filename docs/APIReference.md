@@ -65,18 +65,26 @@ CFST()
   </tr>
  <tr>
     <td>QueueManager
-(&lt;name=''&gt;>., &lt;disconnect_on_exit=True,&gt;&lt;bytes_encoding=default.bytes_encoding,&gt; &lt;default_ccsid=default.ccsid&gt;)</td>
+(&lt;name=''&gt; &lt;disconnect_on_exit=True,&gt; &lt;,bytes_encoding=default.bytes_encoding&gt; &lt;,default_ccsid=default.ccsid&gt;)</td>
     <td>String:name</td>
     <td>qmgr object </td>
   </tr>
+
   <tr>
-    <td>connect(name)</td>
-    <td>String:name</td>
-    <td>qmgr object </td>
+    <td>connect_with_options(name [, opts=cnoopts][ ,cd=mqcd][ ,sco=mqsco]) )</td>
+    <td><ul><li>String:name 
+          <li>Integer:cnoopts
+          <li>mqcd object:cd
+          <li>mqsco object: sco
+    </td>
+    <td>queue manager object</td>
   </tr>
  <tr>
     <td>connect_tcp_client(name, cd, channel, conn_name, user=None, password=None) not supported on z/OS</td>
-    <td></td>
+    <td>:<ul><li>String:name 
+
+:li.cd</ul>
+</td>
     <td></td>
   </tr>
 <tr>
