@@ -1,4 +1,4 @@
-g# API reference
+# API reference
 
 ## Usage
 
@@ -55,7 +55,7 @@ CFST()
 #### QueueManager
 (name='', disconnect_on_exit=True,bytes_encoding=default.bytes_encoding, default_ccsid=default.ccsid)
  connect(name)
- connect_with_options(name, &lt.cd() &lt.,sco()&gt. &lt.,user=...&gt.&lt.,password=...&gt.)
+ connect_with_options(name, &lt;cd() &lt;,sco()&gt; &lt;,user=...&gt;&lt;,password=...&gt;)
 
 <table style="border: 1px solid black;">
   <tr>
@@ -65,7 +65,7 @@ CFST()
   </tr>
  <tr>
     <td>QueueManager
-(\n.name=''\>., &lt.disconnect_on_exit=True&gt.,&lt.bytes_encoding=default.bytes_encoding,&gt. &lt.default_ccsid=default.ccsid&gt.)</td>
+(\n.name=''\>., &lt;disconnect_on_exit=True&gt;,&lt;bytes_encoding=default.bytes_encoding,&gt; &lt;default_ccsid=default.ccsid&gt;)</td>
     <td>String name</td>
     <td> qmgr object </td>
   </tr>
@@ -98,7 +98,7 @@ CFST()
  begin()
  commit()
  backout()
- put1(qDescm,msg &lt.,md() &lt.,pmo%gt. %gt. )
+ put1(qDescm,msg &lt;,md() &lt;,pmo%gt. %gt. )
     qDesc is either a name or an od() object)
  inquire(attribute) 
  _is_connected() 
