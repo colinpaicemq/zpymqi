@@ -1,5 +1,6 @@
-#API reference
-##Usage
+# API reference
+
+## Usage
 
 You can set up control blocks in a variety of ways.
 For example
