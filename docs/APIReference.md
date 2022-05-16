@@ -80,10 +80,7 @@ CFST()
     <td>queue manager object</td>
   </tr>
  <tr>
-    <td>connect_tcp_client(name, cd, channel, conn_name, user=None, password=None) not supported on z/OS</td>
-    <td>:<ul><li>String:name 
-
-:li.cd</ul>
+    <td>connect_tcp_client(name, cd, channel, conn_name, user=None, password=None)<p> not supported on z/OS</td>
 </td>
     <td></td>
   </tr>
@@ -92,20 +89,30 @@ CFST()
     <td></td>
     <td></td>
   </tr>
+<tr><td>disconnect()<td>
+</tr>
+<tr><td>get_handle()</td></tr>
+<tr><td>get_debug()</td></tr>
+<tr><td>set_debug(value) </td></tr>
+<tr><td>get_name()</td></tr>
+<tr><td>begin()</td></tr>
+<tr><td>commit()</td></tr>
+<tr><td>backout()</td></tr>
+<tr><td> put1(qDescm,msg &lt;,md() &lt;,pmo&gt; &gt; )
+<td><ul><li>qDesc is either a name or an od() object
+<li>md is a message description object or None
+<li>pmo is a put message options object or None
+</td></tr>
+<tr><td> inquire(attribute) </td>
+<td>attribute is an integer like pymqi.CMQC.MQCA_Q_MGR_IDENTIFIER
+<td>value, such as string or integer, matching the request  
+</tr>
+
 </table> 
 
 
 
-  
- connect_tcp_client(name, cd, channel, conn_name, user=None, password=None)
- disconnect()
- get_handle()
- get_debug()
- set_debug(value) 
- get_name()
- begin()
- commit()
- backout()
+
  put1(qDescm,msg &lt;,md() &lt;,pmo&gt; &gt; )
     qDesc is either a name or an od() object)
  inquire(attribute) 
