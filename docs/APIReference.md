@@ -1,4 +1,4 @@
-# API reference
+g# API reference
 
 ## Usage
 
@@ -55,7 +55,7 @@ CFST()
 #### QueueManager
 (name='', disconnect_on_exit=True,bytes_encoding=default.bytes_encoding, default_ccsid=default.ccsid)
  connect(name)
- connect_with_options(name, <cd() <,sco()>> <,user=...><,password=...>)
+ connect_with_options(name, &lt.cd() &lt.,sco()&gt. &lt.,user=...&gt.&lt.,password=...&gt.)
 
 <table style="border: 1px solid black;">
   <tr>
@@ -65,7 +65,7 @@ CFST()
   </tr>
  <tr>
     <td>QueueManager
-(<name=''>, <disconnect_on_exit=True>,<bytes_encoding=default.bytes_encoding,> <default_ccsid=default.ccsid>)</td>
+(&lt.name=''&gt., &lt.disconnect_on_exit=True&gt.,&lt.bytes_encoding=default.bytes_encoding,&gt. &lt.default_ccsid=default.ccsid&gt.)</td>
     <td>String name</td>
     <td> qmgr object </td>
   </tr>
@@ -98,32 +98,32 @@ CFST()
  begin()
  commit()
  backout()
- put1(qDescm,msg <,md() <,pmo> > )
+ put1(qDescm,msg &lt.,md() &lt.,pmo%gt. %gt. )
     qDesc is either a name or an od() object)
  inquire(attribute) 
  _is_connected() 
-Queue(qmgr() <,od() , <  mqoo >>
-  open(qdesc,< open_options)
+Queue(qmgr() %lt.,od() , %lt.  mqoo %gt.%gt.
+  open(qdesc,%lt. open_options)
     where qdesc = queue name or od()
-  put(message<,md()M,pmo()>>)
+  put(message%lt.,md()M,pmo()%gt.%gt.)
   put_rfh2(message,md(),,(rfh2(),rfh2())
-  get(<maxLength=None>,<md() <,gmo()>>)
-#  get_rfh2(<max_length=None>,
+  get(%lt.maxLength=None%gt.,%lt.md() %lt.,gmo()%gt.%gt.)
+#  get_rfh2(%lt.max_length=None%gt.,
   close()
   inquire(attribute)
   set(attribute,arg)
   set_handle(queue_handle)
   get_handle()
 
-Topic(queue_manager <, topic_name=None> < , topic_string=None> <,topic_desc=None> <, open_opts=None>)
+Topic(queue_manager %lt., topic_name=None%gt. %lt. , topic_string=None%gt. %lt.,topic_desc=None%gt. %lt., open_opts=None%gt.)
   open(def open(self, topic_name=None, topic_string=None, topic_desc=None, open_opts=None) 
-  pub(msg <,md() (,pmo>>) 
+  pub(msg %lt.,md() (,pmo%gt.%gt.) 
   pub_rfh2()
-  sub(<sd()>,<queuename>)
-  close(<options=CMQC.MQCO_NONE>
+  sub(%lt.sd()%gt.,%lt.queuename%gt.)
+  close(%lt.options=CMQC.MQCO_NONE%gt.
 Subscription(queue_manager, sub_desc=None, sub_name=None,
                  sub_queue=None, sub_opts=None, topic_name=None, topic_string=None)
-    get(max_length=None <md() <,gmo>> )
+    get(max_length=None %lt.md() %lt.,gmo%gt.%gt. )
     sub(sub_desc=None, sub_queue=None, sub_name=None, sub_opts=None,
             topic_name=None, topic_string=None)
     close(sub_close_options=CMQC.MQCO_NONE,close_sub_queue=False, close_sub_queue_options=CMQC.MQCO_NONE)
