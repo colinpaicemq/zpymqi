@@ -65,7 +65,7 @@ CFST()
   </tr>
  <tr>
     <td>QueueManager
-(&lt.name=''&gt., &lt.disconnect_on_exit=True&gt.,&lt.bytes_encoding=default.bytes_encoding,&gt. &lt.default_ccsid=default.ccsid&gt.)</td>
+(\n.name=''\>., &lt.disconnect_on_exit=True&gt.,&lt.bytes_encoding=default.bytes_encoding,&gt. &lt.default_ccsid=default.ccsid&gt.)</td>
     <td>String name</td>
     <td> qmgr object </td>
   </tr>
