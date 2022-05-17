@@ -73,6 +73,6 @@ Any problems with Pymqi on z/OS should be reported to colinpaicemq@gmail.com.
 
 [Inquire and Set](inquire.md)
 
-[Subscribe](inquire.md) and [Publish](publish.md)
+[Subscribe](subscribe.md) and [Publish](publish.md)
 
 [Using PCF](zpymqi_pcf.md)
