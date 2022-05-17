@@ -1,4 +1,4 @@
-#Using the API
+# Using the API
 ### Creating MQ structures
 
 You can create MQ structures for example 
@@ -79,17 +79,18 @@ Other errors may result in an PYIFError exception, for example
 1. An MQ control block passed to pymqi is not well formed; such as a bad eye catcher or length
 1. A request has been made but the application is not connected to MQ.
 
-##Trace
+## Trace
 
-You can turn on a trace in the zpymqi module, of the parameters passed to and from MQ calls.  This is displayed in the adapter code (written in C).
+You can turn on a trace in the zpymqi module (from the C code).   This traces, the parameters passed to and from MQ calls.  
 
 code::
+
         qmgr.set_debug(...) 
 
 Where the ...  is a number for example  qmgr.set_debug(1+pymqi.xCC+pymqi.xPCF)
  
 | constant |value |meaning|
-| :-----    |:----- |:----- |
+| :-----    |-----:|:----- |
 | | 1 | if the return code is non zero|
 | pymqi.xCC| 2 | display the compcode and reason code including rc = 0 |
 | pymqi.xPUTBUFFER |4| display the put buffer ( after the MQPUT*) |
@@ -103,6 +104,6 @@ Where the ...  is a number for example  qmgr.set_debug(1+pymqi.xCC+pymqi.xPCF)
 | pymqi.xSUB       |256| display the MQSD, Object name, ResObjectString, subname,sub options, after and MQSUB|
 | pymqi.xSETQMP   |1512| displays the Set Message Properties options, and property name etc|
 | pymqi.xINQMP    |1024| displays the Inquire Message Properties options, and property name etc|
-| pymqi.xPCF      |2048| For the MQPUT, displays the cc and reason code, the PCF command, the count, and the   first 1024 bytes of the  structure.  
-|                 |    |For the MQGET displays the same information + PCF compcode and reason code|
+| pymqi.xPCF      |2048| for the MQPUT, displays the cc and reason code, the PCF command, the count, and the   first 1024 bytes of the structure.
+| pymqi.xPCF      |2048| for the MQGET, it displays the same information + PCF compcode and reason code|
 | pymqi.xCONN     |4096| displays MQCONNX info, MQCNO, MQCSP| 

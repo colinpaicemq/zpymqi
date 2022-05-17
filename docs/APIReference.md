@@ -105,22 +105,50 @@ CFST()
 <li>md is a md() object or None
 <li>pmo is a pmo() object or None
 </td></tr>
-
 </table> 
 
+## Queue
+<table style="border: 1px solid black;">
+  <tr>
+    <th width=50%>Method</th>
+    <th width=25%>Parameters</th>
+    <th width=25%>Return value </th>
+  </tr>
+ <tr>
+    <td>
+Queue(qmgr() &lt;,od() , &lt;  mqoo &gt;&gt;)  
+</td>
 
-
-
- put1(qDescm,msg &lt;,md() &lt;,pmo&gt; &gt; )
-    qDesc is either a name or an od() object)
- inquire(attribute) 
- _is_connected() 
-Queue(qmgr() &lt;,od() , &lt;  mqoo &gt;&gt;
+</tr>
+<tr><td>
   open(qdesc,&lt; open_options)
-    where qdesc = queue name or od()
-  put(message&lt;,md()M,pmo()&gt;&gt;)
-  put_rfh2(message,md(),,(rfh2(),rfh2())
+   
+</td>
+<td><ul><li>qdesc = queue name or od()</ul></td>
+<td>queue handle object</td>
+</tr>
+<tr>
+<td>
+  put(message&lt;,md()&lt;,pmo()&gt;&gt;)
+</td>
+<td><ul><li>string: message<li>md()<li>pmo</ul></td>
+<td>queue handle object</td>
+</tr>
+<tr><td>
+  put_rfh2(message,md(),(rfh2(),rfh2())
+<td><ul><li>????</ul></td>
+<td></td>
+</tr>
+<tr>
+<td>
   get(&lt;maxLength=None&gt;,&lt;md() &lt;,gmo()&gt;&gt;)
+</td>
+<td><ul><li>string: message<li>md()<li>pmo</ul></td>
+<td>queue handle object</td>
+</tr>
+</table>
+
+
 #### get_rfh2
  get_rfh2(%lt;max_length=None%gt;
   close()

@@ -1,8 +1,8 @@
-#Connect and disconnect
+# Connect and disconnect
 
-##Connect using local binding
+## Connect using local binding
 
-###Using MQCONN
+### Using MQCONN
 
 
 code ::

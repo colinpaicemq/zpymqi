@@ -1,0 +1,3381 @@
+<body>
+<div id="app">
+<h1 class="topictitle1 bx--type-expressive-heading-05" id="d422257e10">MQCMD_CHANGE_Q_MGR (Change Queue Manager)</h1><span style="display:none" id="lastModifiedDate">2021-12-23</span>
+
+
+
+<div class="body refbody"><p class="shortdesc">The Change Queue Manager (MQCMD_CHANGE_Q_MGR) PCF command changes the
+specified attributes of the queue manager. </p>
+
+<div class="section">
+<div class="p">For any optional parameters that are omitted, the value does not change.<dl>
+
+<dt class="dlterm">Required parameters:</dt>
+
+<dd class="dlentry">None </dd>
+
+
+</dl>
+
+</div>
+
+</div>
+
+<section class="section" role="region" aria-labelledby="d422257e67"><h2 class="sectiontitle bx--type-expressive-heading-04" id="d422257e67">Optional parameters (Change Queue Manager)</h2>
+
+<dl class="parml">
+
+<dt class="pt dltermexpand" data-hd-platform="multi">
+<img alt="[UNIX, Linux, Windows, IBM i]" 
+src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" 
+class="ibmdocs-image-downsize">AccountingConnOverride (MQCFIN)
+</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG"> Specifies whether applications can override the settings of the
+<code class="ph codeph"><var class="keyword varname">QueueAccounting</var></code> and
+<code class="ph codeph"><var class="keyword varname">MQIAccounting</var></code> queue manager parameters (parameter identifier:
+<code class="ph codeph">MQIA_ACCOUNTING_CONN_OVERRIDE</code>). <div class="p">The value can be any of the following values:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_DISABLED</code></dt>
+
+<dd class="dlentry">Applications cannot override the settings of the
+<span class="keyword parmname">QueueAccounting</span> and
+<span class="keyword parmname">MQIAccounting</span> parameters. <p>This value is the initial default
+value for the queue manager. </p>
+
+</dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_ENABLED</code></dt>
+
+<dd class="dlentry">Applications can override the settings of the
+<span class="keyword parmname">QueueAccounting</span> and
+<span class="keyword parmname">MQIAccounting</span> parameters by using the options field of the
+<span class="keyword option">MQCNO</span> structure of the <span class="keyword apiname">MQCONNX</span> API call. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>.</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">AccountingInterval (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">The time interval, in seconds, at which intermediate accounting records are written (parameter
+identifier: <code class="ph codeph">MQIA_ACCOUNTING_INTERVAL</code>). 
+<p>Specify a value in the range 1 - 604,000. </p>
+
+<p>This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>.</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ActivityRecording (MQCFIN)</dt>
+
+<dd class="pd">Specifies whether activity reports can be generated (parameter identifier:
+<code class="ph codeph">MQIA_ACTIVITY_RECORDING</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQRECORDING_DISABLED</code></dt>
+
+<dd class="dlentry">Activity reports cannot be generated. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRECORDING_MSG</code></dt>
+
+<dd class="dlentry">Activity reports can be generated and sent to the reply queue specified by the originator in the
+message causing the report. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRECORDING_Q</code></dt>
+
+<dd class="dlentry">Activity reports can be generated and sent to <code class="ph codeph">SYSTEM.ADMIN.ACTIVITY.QUEUE</code>.
+</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">AdoptNewMCACheck (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The elements checked to determine whether an MCA must be adopted (restarted) when a new inbound
+channel is detected. It must be adopted (restarted) if it that has the same name as a currently
+active MCA (parameter identifier: <code class="ph codeph">MQIA_ADOPTNEWMCA_CHECK</code>).
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQADOPT_CHECK_Q_MGR_NAME</code>
+</dt>
+
+<dd class="dlentry">Check the queue manager name. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQADOPT_CHECK_NET_ADDR</code>
+</dt>
+
+<dd class="dlentry">Check the network address. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQADOPT_CHECK_ALL</code>
+</dt>
+
+<dd class="dlentry">Check the queue manager name and network address. Perform this check to prevent your channels
+from being inadvertently shut down. This value is the initial default value of the queue manager.
+</dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQADOPT_CHECK_NONE</code>
+</dt>
+
+<dd class="dlentry">Do not check any elements. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter applies to <span class="keyword">z/OS®</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">AdoptNewMCAType (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Adoption of orphaned channel instances (parameter identifier:
+<code class="ph codeph">MQIA_ADOPTNEWMCA_TYPE</code>). 
+<p>Specify whether an orphaned MCA instance is to be adopted when a new inbound channel request is
+detected matching the <span class="keyword parmname">AdoptNewMCACheck</span> parameters. </p>
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQADOPT_TYPE_NO</code>
+</dt>
+
+<dd class="dlentry">Do not adopt orphaned channel instances. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQADOPT_TYPE_ALL</code>
+</dt>
+
+<dd class="dlentry">Adopt all channel types. This value is the initial default value of the queue manager. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">AuthorityEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether authorization (Not Authorized) events are generated (parameter identifier:
+<code class="ph codeph">MQIA_AUTHORITY_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. This value is not permitted on <span class="keyword">z/OS</span>. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">BridgeEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether IMS bridge events are generated (parameter identifier:
+<code class="ph codeph">MQIA_BRIDGE_EVENT</code>). This parameter applies to <span class="keyword">z/OS</span> only. 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. This value is the default value. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">CertificateLabel (MQCFST)</dt>
+
+<dd class="pd">Specifies the certificate label for this queue manager to use. The label identifies which
+personal certificate in the key repository has been selected (parameter identifier:
+<code class="ph codeph">MQCA_CERT_LABEL</code>). <div class="p">The default and migrated queue manager values are:<ul class="bx--list--unordered">
+<li data-hd-platform="ulwbis" class="bx--list__item"><img alt="[AIX, Linux, Windows]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngalw.gif" class="ibmdocs-image-downsize">On <span class="keyword">AIX®, Linux®, and Windows</span>:
+<var class="keyword varname">ibmwebspheremqxxxx</var> where <var class="keyword varname">xxxx</var> is the queue manager name folded
+to lowercase.</li>
+
+<li data-hd-platform="ibmi" class="bx--list__item"><img alt="[IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngibmi.gif" class="ibmdocs-image-downsize">On <span class="keyword">IBM® i</span>:<ul class="bx--list--unordered bx--list--nested">
+<li class="bx--list__item">If you specified SSLKEYR(*SYSTEM), the value is blank. <p>Note that it is forbidden to use a
+nonblank queue manager CERTLABL with SSLKEYR(*SYSTEM). Attempting to do so results in an
+MQRCCF_Q_MGR_ATTR_CONFLICT error.</p>
+</li>
+
+<li class="bx--list__item">Otherwise, <var class="keyword varname">ibmwebspheremqxxxx</var> where <var class="keyword varname">xxxx</var> is the queue
+manager name folded to lowercase.</li>
+
+</ul>
+</li>
+
+<li data-hd-platform="zos" class="bx--list__item"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">On <span class="keyword">z/OS</span>:
+<var class="keyword varname">ibmWebSphereMQXXXX</var> where <var class="keyword varname">XXXX</var> is the queue manager name.<p>See
+<a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.sec.doc/q014340_.html#q014340___zossystems"><span class="keyword">z/OS</span> systems</a> for more information.</p>
+</li>
+
+</ul>
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">CertificateValPolicy (MQCFIN)</dt>
+
+<dd class="pd">Specifies which TLS certificate validation policy is used to validate digital certificates
+received from remote partner systems (parameter identifier: <code class="ph codeph">MQIA_CERT_VAL_POLICY</code>).
+<p>This attribute can be used to control how strictly the certificate chain validation conforms to
+industry security standards. For more information, see <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.sec.doc/q010220_.html">Certificate validation policies in <span class="keyword">IBM MQ</span></a>. </p>
+
+<div class="p">The value can be any of the following values:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQ_CERT_VAL_POLICY_ANY</code></dt>
+
+<dd class="dlentry">Apply each of the certificate validation policies supported by the secure sockets library and
+accept the certificate chain if any of the policies considers the certificate chain valid. This
+setting can be used for maximum backwards compatibility with older digital certificates which do not
+comply with the modern certificate standards. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQ_CERT_VAL_POLICY_RFC5280</code></dt>
+
+<dd class="dlentry">Apply only the RFC 5280 compliant certificate validation policy. This setting provides stricter
+validation than the ANY setting, but rejects some older digital certificates. </dd>
+
+
+</dl>
+ This parameter is only valid on <span class="keyword">AIX, Linux, and Windows</span> and can be
+used only on a queue manager with a command level of <code class="ph codeph">711</code>, or higher. </div>
+
+<div class="p">Changes to <span class="keyword parmname">CertificateValPolicy</span> become effective either:<ul class="bx--list--unordered">
+<li class="bx--list__item">When a new channel process is started. </li>
+
+<li class="bx--list__item">For channels that run as threads of the channel initiator, when the channel initiator is
+restarted. </li>
+
+<li class="bx--list__item">For channels that run as threads of the listener, when the listener is restarted. </li>
+
+<li class="bx--list__item">For channels that run as threads of a process pooling process, when the process pooling process
+is started or restarted and first runs a TLS channel. If the process pooling process has already run
+a TLS channel, and you want the change to become effective immediately, run the MQSC command
+<span class="keyword cmdname">REFRESH SECURITY TYPE(SSL)</span>. The process pooling process is
+<code class="ph codeph">amqrmppa</code> on  <span class="keyword">AIX, Linux, and Windows</span>.</li>
+
+<li class="bx--list__item">When a <span class="keyword cmdname">REFRESH SECURITY TYPE(SSL)</span> command is issued. </li>
+
+</ul>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">CFConlos (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Specifies the action to be taken when the queue manager loses connectivity to the administration
+structure, or any CF structure with <span class="keyword option">CFConlos</span> set to <code class="ph codeph">ASQMGR</code>
+(parameter identifier: <code class="ph codeph">MQIA_QMGR_CFCONLOS</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQCFCONLOS_TERMINATE</code>
+</dt>
+
+<dd class="dlentry">The queue manager terminates when connectivity to CF structures is lost. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQCFCONLOS_TOLERATE</code>
+</dt>
+
+<dd class="dlentry">The queue manager tolerates loss of connectivity to CF structures without terminating. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ChannelAutoDef (MQCFIN)</dt>
+
+<dd class="pd">Controls whether receiver and server-connection channels can be auto-defined (parameter
+identifier: <code class="ph codeph">MQIA_CHANNEL_AUTO_DEF</code>). 
+<p>Auto-definition for cluster-sender channels is always enabled. </p>
+
+<p>This parameter is supported in the following environments: <span class="keyword">IBM i</span>, <span class="keyword">AIX, Linux, and Windows</span>
+systems. </p>
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQCHAD_DISABLED</code></dt>
+
+<dd class="dlentry">Channel auto-definition disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQCHAD_ENABLED</code></dt>
+
+<dd class="dlentry">Channel auto-definition enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ChannelAutoDefEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether channel auto-definition events are generated (parameter identifier:
+<code class="ph codeph">MQIA_CHANNEL_AUTO_DEF_EVENT</code>), when a receiver, server-connection, or cluster-sender
+channel is auto-defined. 
+<p>This parameter is supported in the following environments: <span class="keyword">IBM i</span>, <span class="keyword">AIX, Linux, and Windows</span>
+systems. </p>
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ChannelAutoDefExit (MQCFIN)</dt>
+
+<dd class="pd">Channel auto-definition exit name (parameter identifier:
+<code class="ph codeph">MQCA_CHANNEL_AUTO_DEF_EXIT</code>). 
+<div class="p">This exit is invoked when an inbound request for an undefined channel is received, if:<ol class="bx--list--ordered--temporary">
+<li class="bx--list__item">The channel is a cluster-sender, or </li>
+
+<li class="bx--list__item">Channel auto-definition is enabled (see <code class="ph codeph"><var class="keyword varname">ChannelAutoDef</var></code>).
+</li>
+
+</ol>
+ This exit is also invoked when a cluster-receiver channel is started. </div>
+
+<p>The format of the name is the same as for the <code class="ph codeph"><var class="keyword varname">SecurityExit</var></code>
+parameter described in <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/q086930_.html" title="The Change Channel PCF command changes existing channel definitions. The Copy and Create Channel commands create new channel definitions - the Copy command uses attribute values of an existing channel definition.">Change, Copy, and Create Channel</a>. </p>
+
+<p>The maximum length of the exit name depends on the environment in which the exit is running.
+<code class="ph codeph">MQ_EXIT_NAME_LENGTH</code> gives the maximum length for the environment in which your
+application is running. <code class="ph codeph">MQ_MAX_EXIT_NAME_LENGTH</code> gives the maximum for all supported
+environments. </p>
+
+<p>This parameter is supported in the following environments: <span class="keyword">z/OS</span>, <span class="keyword">IBM i</span>, <span class="keyword">AIX, Linux, and Windows</span>. On <span class="keyword">z/OS</span>, it applies only to
+cluster-sender and cluster-receiver channels. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ChannelAuthenticationRecords (MQCFIN)</dt>
+
+<dd class="pd">Controls whether channel authentication records are used. Channel authentication records can
+still be set and displayed regardless of the value of this attribute. (parameter identifier:
+<code class="ph codeph">MQIA_CHLAUTH_RECORDS</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQCHLA_DISABLED</code></dt>
+
+<dd class="dlentry">Channel authentication records are not checked. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQCHLA_ENABLED</code></dt>
+
+<dd class="dlentry">Channel authentication records are checked. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ChannelEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether channel events are generated (parameter identifier:
+<code class="ph codeph">MQIA_CHANNEL_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_EXCEPTION</code></dt>
+
+<dd class="dlentry">Reporting of exception channel events enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">ChannelInitiatorControl (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">Specifies whether the channel initiator is to be started when the queue manager starts
+(parameter identifier: <code class="ph codeph">MQIA_CHINIT_CONTROL</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQSVC_CONTROL_MANUAL</code></dt>
+
+<dd class="dlentry">The channel initiator is not to be started automatically. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQSVC_CONTROL_Q_MGR</code></dt>
+
+<dd class="dlentry">The channel initiator is to be started automatically when the queue manager starts. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>.</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ChannelMonitoring (MQCFIN)</dt>
+
+<dd class="pd">Default setting for online monitoring for channels (parameter identifier:
+<code class="ph codeph">MQIA_MONITORING_CHANNEL</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_NONE</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned off for channels regardless of the setting of their
+<span class="keyword parmname">ChannelMonitoring</span> parameter. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_OFF</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned off for channels specifying a value of
+<code class="ph codeph">MQMON_Q_MGR</code> in their <span class="keyword parmname">ChannelMonitoring</span>
+parameter. This value is the initial default value of the queue manager. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_LOW</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned on, with a low ratio of data collection, for
+channels specifying a value of <code class="ph codeph">MQMON_Q_MGR</code> in their
+<span class="keyword parmname">ChannelMonitoring</span> parameter. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_MEDIUM</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned on, with a moderate ratio of data collection, for
+channels specifying a value of <code class="ph codeph">MQMON_Q_MGR</code> in their
+<span class="keyword parmname">ChannelMonitoring</span> parameter. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_HIGH</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned on, with a high ratio of data collection, for
+channels specifying a value of <code class="ph codeph">MQMON_Q_MGR</code> in their
+<span class="keyword parmname">ChannelMonitoring</span> parameter. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ChannelStatistics (MQCFIN)</dt>
+
+<dd class="pd">Controls whether statistics data is to be collected for channels (parameter identifier:
+<code class="ph codeph">MQIA_STATISTICS_CHANNEL</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_NONE</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned off for channels regardless of the setting of their
+<span class="keyword parmname">ChannelStatistics</span> parameter. This value is the initial default
+value of the queue manager. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_OFF</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned off for channels specifying a value of
+<code class="ph codeph">MQMON_Q_MGR</code> in their <code class="ph codeph"><var class="keyword varname">ChannelStatistics</var></code>
+parameter. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_LOW</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned on, with a low ratio of data collection, for channels
+specifying a value of <code class="ph codeph">MQMON_Q_MGR</code> in their
+<span class="keyword parmname">ChannelStatistics</span> parameter. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_MEDIUM</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned on, with a moderate ratio of data collection, for channels
+specifying a value of <code class="ph codeph">MQMON_Q_MGR</code> in their
+<span class="keyword parmname">ChannelStatistics</span> parameter. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_HIGH</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned on, with a high ratio of data collection, for channels
+specifying a value of <code class="ph codeph">MQMON_Q_MGR</code> in their
+<span class="keyword parmname">ChannelStatistics</span> parameter. </dd>
+
+
+</dl>
+
+</div>
+
+<p data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize"><span class="ph" data-hd-platform="zosNOFLAG">On <span class="keyword">z/OS</span> systems, enabling this parameter simply turns on statistics data collection, regardless of the value you select. Specifying <span class="keyword option">LOW</span>, <span class="keyword option">MEDIUM</span>, or <span class="keyword option">HIGH</span> makes no difference to your results. </span><span class="ph" data-hd-platform="zosNOFLAG">This parameter must be enabled in order to collect channel accounting records.</span></p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ChinitAdapters (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Number of adapter subtasks (parameter identifier: <code class="ph codeph">MQIA_CHINIT_ADAPTERS</code>).
+
+<p>The number of adapter subtasks to use for processing <span class="keyword">IBM MQ</span> calls. This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Specify a value in the range 1 - 9999. The initial default value of the queue manager is 8. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ChinitDispatchers (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Number of dispatchers (parameter identifier: <code class="ph codeph">MQIA_CHINIT_DISPATCHERS</code>).
+
+<p>The number of dispatchers to use for the channel initiator. This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Specify a value in the range 1 - 9999. The initial default value of the queue manager is 5. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ChinitServiceParm (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Reserved for use by <span class="keyword">IBM</span> (parameter identifier:
+<code class="ph codeph">MQCA_CHINIT_SERVICE_PARM</code>). 
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ChinitTraceAutoStart (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Specifies whether the channel initiator trace must start automatically (parameter identifier:
+<code class="ph codeph">MQIA_CHINIT_TRACE_AUTO_START</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQTRAXSTR_YES</code>
+</dt>
+
+<dd class="dlentry">Channel initiator trace is to start automatically. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQTRAXSTR_NO</code>
+</dt>
+
+<dd class="dlentry">Channel initiator trace is not to start automatically. This value is the initial default value
+of the queue manager. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ChinitTraceTableSize (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The size, in megabytes, of the trace data space of the channel initiator (parameter identifier:
+<code class="ph codeph">MQIA_CHINIT_TRACE_TABLE_SIZE</code>). 
+<p>Specify a value in the range 2 - 2048. The initial default value of the queue manager is 2. </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ClusterSenderMonitoringDefault (MQCFIN)</dt>
+
+<dd class="pd">Default setting for online monitoring for automatically defined cluster-sender channels
+(parameter identifier: <code class="ph codeph">MQIA_MONITORING_AUTO_CLUSSDR</code>).
+
+<div class="p">Specifies the value to be used for the <code class="ph codeph">
+<var class="keyword varname">ChannelMonitoring</var>
+</code> attribute of automatically defined cluster-sender channels. The value can be any of the
+following values:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">
+<code class="ph codeph">MQMON_Q_MGR</code>
+</code>
+</dt>
+
+<dd class="dlentry">Collection of online monitoring data is inherited from the setting of the queue manager's <span class="keyword parmname">ChannelMonitoring</span> parameter. This value is the initial default value of the queue manager. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_OFF</code>
+</dt>
+
+<dd class="dlentry">Monitoring for the channel is disabled. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_LOW</code>
+</dt>
+
+<dd class="dlentry">Unless <code class="ph codeph">
+<var class="keyword varname">ChannelMonitoring</var>
+</code> is <code class="ph codeph">MQMON_NONE</code>, this value specifies a low rate of data collection with a
+minimal effect on system performance. The data collected is not likely to be the most current. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_MEDIUM</code>
+</dt>
+
+<dd class="dlentry">Unless <code class="ph codeph">
+<var class="keyword varname">ChannelMonitoring</var>
+</code> is <code class="ph codeph">MQMON_NONE</code>, this value specifies a moderate rate of data collection
+with limited effect on system performance. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_HIGH</code>
+</dt>
+
+<dd class="dlentry">Unless <code class="ph codeph">
+<var class="keyword varname">ChannelMonitoring</var>
+</code> is <code class="ph codeph">MQMON_NONE</code>, this value specifies a high rate of data collection with a
+likely effect on system performance. The data collected is the most current available. </dd>
+
+
+</dl>
+
+</div>
+
+<p data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize"><span class="ph" data-hd-platform="zosNOFLAG">On <span class="keyword">z/OS</span> systems, enabling this parameter simply turns on statistics data collection, regardless of the value you select. Specifying <span class="keyword option">LOW</span>, <span class="keyword option">MEDIUM</span>, or <span class="keyword option">HIGH</span> makes no difference to your results. </span></p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ClusterSenderStatistics (MQCFIN)</dt>
+
+<dd class="pd">Controls whether statistics data is to be collected for auto-defined cluster-sender channels
+(parameter identifier: <code class="ph codeph">MQIA_STATISTICS_AUTO_CLUSSDR</code>).
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">
+<code class="ph codeph">MQMON_Q_MGR</code>
+</code>
+</dt>
+
+<dd class="dlentry">Collection of statistics data is inherited from the setting of the queue manager's <span class="keyword parmname">ChannelStatistics</span> parameter. This value is the initial default value of the queue manager. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_OFF</code>
+</dt>
+
+<dd class="dlentry">Statistics data collection for the channel is disabled. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_LOW</code>
+</dt>
+
+<dd class="dlentry">Unless <code class="ph codeph">
+<var class="keyword varname">ChannelStatistics</var>
+</code> is <code class="ph codeph">MQMON_NONE</code>, this value specifies a low rate of data collection with a
+minimal effect on system performance. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_MEDIUM</code>
+</dt>
+
+<dd class="dlentry">Unless <code class="ph codeph">
+<var class="keyword varname">ChannelStatistics</var>
+</code> is <code class="ph codeph">MQMON_NONE</code>, this value specifies a moderate rate of data collection.
+</dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQMON_HIGH</code>
+</dt>
+
+<dd class="dlentry">Unless <code class="ph codeph">
+<var class="keyword varname">ChannelStatistics</var>
+</code> is <code class="ph codeph">MQMON_NONE</code>, this value specifies a high rate of data collection. </dd>
+
+
+</dl>
+
+</div>
+
+<p data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize"><span class="ph" data-hd-platform="zosNOFLAG">On <span class="keyword">z/OS</span> systems, enabling this parameter simply turns on statistics data collection, regardless of the value you select. Specifying <span class="keyword option">LOW</span>, <span class="keyword option">MEDIUM</span>, or <span class="keyword option">HIGH</span> makes no difference to your results. </span><span class="ph" data-hd-platform="zosNOFLAG">This parameter must be enabled in order to collect channel accounting records.</span></p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ClusterWorkLoadData (MQCFST)</dt>
+
+<dd class="pd">Cluster workload exit data (parameter identifier: <code class="ph codeph">MQCA_CLUSTER_WORKLOAD_DATA</code>).
+
+<p>This parameter is passed to the cluster workload exit when it is called. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_EXIT_DATA_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ClusterWorkLoadExit (MQCFST)</dt>
+
+<dd class="pd">Cluster workload exit name (parameter identifier: <code class="ph codeph">MQCA_CLUSTER_WORKLOAD_EXIT</code>).
+
+<p>If a nonblank name is defined this exit is invoked when a message is put to a cluster queue. </p>
+
+<p>The format of the name is the same as for the <code class="ph codeph"><var class="keyword varname">SecurityExit</var></code>
+parameter described in <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/q086930_.html" title="The Change Channel PCF command changes existing channel definitions. The Copy and Create Channel commands create new channel definitions - the Copy command uses attribute values of an existing channel definition.">Change, Copy, and Create Channel</a>. </p>
+
+<p>The maximum length of the exit name depends on the environment in which the exit is running.
+<code class="ph codeph">MQ_EXIT_NAME_LENGTH</code> gives the maximum length for the environment in which your
+application is running. <code class="ph codeph">MQ_MAX_EXIT_NAME_LENGTH</code> gives the maximum for all supported
+environments. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ClusterWorkLoadLength (MQCFIN)</dt>
+
+<dd class="pd">Cluster workload length (parameter identifier: <code class="ph codeph">MQIA_CLUSTER_WORKLOAD_LENGTH</code>).
+
+<p>The maximum length of the message passed to the cluster workload exit. </p>
+
+<p>The value of this attribute must be in the range 0 - 999,999 999. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">CLWLMRUChannels (MQCFIN)</dt>
+
+<dd class="pd">Cluster workload most recently used (MRU) channels (parameter identifier:
+<code class="ph codeph">MQIA_CLWL_MRU_CHANNELS</code>). 
+<p>The maximum number of active most recently used outbound channels. </p>
+
+<p>Specify a value in the range 1 - 999,999 999. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">CLWLUseQ (MQCFIN)</dt>
+
+<dd class="pd">Use of remote queue (parameter identifier: <code class="ph codeph">MQIA_CLWL_USEQ</code>). 
+<p>Specifies whether a cluster queue manager is to use remote puts to other queues defined in other
+queue managers within the cluster during workload management. </p>
+
+<div class="p">Specify either:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQCLWL_USEQ_ANY</code></dt>
+
+<dd class="dlentry">Use remote queues. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQCLWL_USEQ_LOCAL</code></dt>
+
+<dd class="dlentry">Do not use remote queues. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">CodedCharSetId (MQCFIN)</dt>
+
+<dd class="pd">Queue manager coded character set identifier (parameter identifier:
+<code class="ph codeph">MQIA_CODED_CHAR_SET_ID</code>). <p>The coded character set identifier (CCSID) for the
+queue manager. The CCSID is the identifier used with all character string fields defined by the
+application programming interface (API). If the CCSID in a message descriptor is set to the value
+<code class="ph codeph">MQCCSI_Q_MGR</code>, it applies to the character data written into the body of a message.
+Data is written using <span class="keyword apiname">MQPUT</span> or <span class="keyword apiname">MQPUT1</span>. Character data is
+identified by the format specified for the message. </p>
+
+<p>Specify a value in the range 1 - 65,535. </p>
+
+<div class="p">The CCSID must specify a value that is defined for use on the platform and use an appropriate
+character set. The character set must be:<ul class="bx--list--unordered">
+<li class="bx--list__item">EBCDIC on <span class="keyword">IBM i</span>
+</li>
+
+<li class="bx--list__item">ASCII or ASCII-related on other platforms </li>
+
+</ul>
+
+</div>
+
+<p>Stop and restart the queue manager after execution of this command so that all processes reflect
+the changed CCSID of the queue manager. </p>
+
+<p>This parameter is not supported on <span class="keyword">z/OS</span>.
+
+</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">CommandEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether command events are generated (parameter identifier:
+<code class="ph codeph">MQIA_COMMAND_EVENT</code>). 
+<div class="p">The value can be any of the following values:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_NO_DISPLAY</code></dt>
+
+<dd class="dlentry">Event reporting enabled for all successful commands except Inquire commands. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">CommandScope (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Command scope (parameter identifier: <code class="ph codeph">MQCACF_COMMAND_SCOPE</code>). This parameter
+applies to <span class="keyword">z/OS</span> only. 
+<div class="p">Specifies how the command is executed when the queue manager is a member of a queue sharing group. You can specify one of the following values:<ul class="bx--list--unordered">
+<li class="bx--list__item">Blank (or omit the parameter altogether). The command is executed on the queue manager on which
+it was entered. </li>
+
+<li class="bx--list__item">A queue manager name. The command is executed on the queue manager you specify, providing it is
+active within the queue sharing group. If you specify a queue manager name other than the queue
+manager on which it was entered, you must be using a queue sharing group environment. The command
+server must be enabled. </li>
+
+<li class="bx--list__item">An asterisk <q class="q"><span>“</span>
+<code class="ph" codeph="">*</code>
+<span>”</span></q>. The command is executed on the local queue manager and is also passed to every active queue
+manager in the queue sharing group. </li>
+
+</ul>
+
+</div>
+
+<p>The maximum length is <code class="ph codeph">MQ_QSG_NAME_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">CommandServerControl (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">Specifies whether the command server is to be started when the queue manager starts (parameter
+identifier: <code class="ph codeph">MQIA_CMD_SERVER_CONTROL</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQSVC_CONTROL_MANUAL</code></dt>
+
+<dd class="dlentry">The command server is not to be started automatically. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQSVC_CONTROL_Q_MGR</code></dt>
+
+<dd class="dlentry">The command server is to be started automatically when the queue manager starts. </dd>
+
+
+</dl>
+
+</div>
+ This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>. </dd>
+
+
+
+<dt class="pt dltermexpand">ConfigurationEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether configuration events are generated (parameter identifier:
+<code class="ph codeph">MQIA_CONFIGURATION_EVENT</code>). 
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ConnAuth (MQCFST)</dt>
+
+<dd class="pd">
+The name of an authentication information object that is used to provide the location of user ID and
+password authentication (parameter identifier: <code class="ph codeph">MQCA_CONN_AUTH</code>). <p>The maximum
+length of the string is <code class="ph codeph">MQ_AUTH_INFO_NAME_LENGTH</code>. Only authentication information
+objects with type IDPWOS or IDPWLDAP can be specified; other types result in an error message when
+the OAM (on <span class="keyword">AIX, Linux, and Windows</span>) or the security component (on <span class="keyword">z/OS</span>) reads the configuration. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">Custom (MQCFST)</dt>
+
+<dd class="pd">Custom attribute for new features (parameter identifier: <code class="ph codeph">MQCA_CUSTOM</code>).
+
+<p>This attribute is reserved for the configuration of new features before separate attributes are
+introduced. It can contain the values of zero or more attributes as pairs of attribute name and
+value, separated by at least one space. The attribute name-value pairs have the form
+<code class="ph codeph">NAME(VALUE)</code>. Single quotation marks must be escaped with another single quotation
+mark. </p>
+
+<p>This description is updated when features using this attribute are introduced. Currently there
+are no possible values for <code class="ph codeph"><var class="keyword varname">Custom</var></code>. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_CUSTOM_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">DeadLetterQName (MQCFIN)</dt>
+
+<dd class="pd">Dead letter (undelivered message) queue name (parameter identifier:
+<code class="ph codeph">MQCA_DEAD_LETTER_Q_NAME</code>). 
+<p>Specifies the name of the local queue that is to be used for undelivered messages. Messages are
+put on this queue if they cannot be routed to their correct destination. The maximum length of the
+string is <code class="ph codeph">MQ_Q_NAME_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">DefClusterXmitQueueType (MQCFIN)</dt>
+
+<dd class="pd"><span class="ph">The <span class="keyword option">DefClusterXmitQueueType</span> attribute controls which transmission queue is selected by default by cluster-sender channels to get messages from, to send the messages to cluster-receiver channels.</span> (Parameter identifier:
+<code class="ph codeph">MQIA_DEF_CLUSTER_XMIT_Q_TYPE</code>.) <div class="p">The values of <span class="keyword parmname">DefClusterXmitQueueType</span> are
+<span class="keyword option">MQCLXQ_SCTQ</span> or <span class="keyword option">MQCLXQ_CHANNEL</span>. <dl>
+
+<dt class="dlterm"><code class="ph codeph">MQCLXQ_SCTQ</code></dt>
+
+<dd class="dlentry">
+<p id="q087000___d10e5125">All cluster-sender channels send messages from
+<code class="ph codeph">SYSTEM.CLUSTER.TRANSMIT.QUEUE</code>. The <span class="keyword option">correlID</span> of messages placed on
+the transmission queue identifies which cluster-sender channel the message is destined for. </p>
+
+<p><span class="ph" id="q087000___d10e5135"><span class="keyword option">SCTQ</span> is set when a queue manager is defined. This behavior is
+implicit in versions of <span class="keyword">IBM WebSphere® MQ</span>, earlier than <span class="keyword">IBM WebSphere MQ 7.5</span>. In earlier versions, the queue manager attribute</span>
+<span class="keyword option">DefClusterXmitQueueType</span> was not present.</p>
+
+</dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQCLXQ_CHANNEL</code></dt>
+
+<dd class="dlentry">Each cluster-sender channel sends messages from a different transmission queue.
+Each transmission queue is created as a permanent dynamic queue from the model queue
+<code class="ph codeph">SYSTEM.CLUSTER.TRANSMIT.MODEL.QUEUE</code>. </dd>
+
+
+</dl>
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">DefXmitQName (MQCFST)</dt>
+
+<dd class="pd">Default transmission queue name (parameter identifier: <code class="ph codeph">MQCA_DEF_XMIT_Q_NAME</code>).
+
+<p>This parameter is the name of the default transmission queue that is used for the transmission of
+messages to remote queue managers. It is selected if there is no other indication of which
+transmission queue to use. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_Q_NAME_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">DNSGroup (MQCFST)</dt>
+
+<dd class="pd">DNS group name (parameter identifier: <code class="ph codeph">MQCA_DNS_GROUP</code>). 
+<p>This parameter is no longer used. See <a href="/docs/en/SSFKSJ_8.0.0/com.ibm.mq.pro.doc/q114910_.html">z/OS: WLM/DNS no longer supported</a>. This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_DNS_GROUP_NAME_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">DNSWLM (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">WLM/DNS Control: (parameter identifier: <code class="ph codeph">MQIA_DNS_WLM</code>). 
+<p>This parameter is no longer used. See <a href="/docs/en/SSFKSJ_8.0.0/com.ibm.mq.pro.doc/q114910_.html">z/OS: WLM/DNS no longer supported</a>. </p>
+
+<div class="p">The value can be any of the following values:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQDNSWLM_NO</code>
+</dt>
+
+<dd class="dlentry">This is the only value supported by the queue manager. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ExpiryInterval (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Interval between scans for expired messages (parameter identifier:
+<code class="ph codeph">MQIA_EXPIRY_INTERVAL</code>). This parameter applies to <span class="keyword">z/OS</span> only. 
+<div class="p">Specifies the frequency with which the queue manager scans the queues looking for expired
+messages. Specify a time interval in seconds in the range 1 - 99,999,999, or the following special value:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQEXPI_OFF</code>
+</dt>
+
+<dd class="dlentry">No scans for expired messages. </dd>
+
+
+</dl>
+ The minimum scan interval used is 5 seconds, even if you specify a lower value. </div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">EncryptionPolicySuiteB (MQCFIL)</dt>
+
+<dd class="pd">Specifies whether Suite B-compliant cryptography is used and what level of strength is employed
+(parameter identifier <code class="ph codeph">MQIA_SUITE_B_STRENGTH</code>). 
+<div class="p">The value can be one or more of:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQ_SUITE_B_NONE</code></dt>
+
+<dd class="dlentry">Suite B-compliant cryptography is not used. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQ_SUITE_B_128_BIT</code></dt>
+
+<dd class="dlentry">Suite B 128-bit strength security is used. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQ_SUITE_B_192_BIT</code></dt>
+
+<dd class="dlentry">Suite B 192-bit strength security is used. </dd>
+
+
+</dl>
+ If invalid lists are specified, such as <code class="ph codeph">MQ_SUITE_B_NONE</code> with
+<code class="ph codeph">MQ_SUITE_B_128_BIT</code>, the error <code class="ph codeph">MQRCCF_SUITE_B_ERROR</code> is issued. </div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">Force (MQCFIN)</dt>
+
+<dd class="pd">Force changes (parameter identifier: <code class="ph codeph">MQIACF_FORCE</code>). 
+<div class="p">Specifies whether the command is forced to complete if both of the following are true:<ul class="bx--list--unordered">
+<li class="bx--list__item"><code class="ph codeph"><var class="keyword varname">DefXmitQName</var></code> is specified, and </li>
+
+<li class="bx--list__item">An application has a remote queue open, the resolution for which is affected by this change.
+</li>
+
+</ul>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">GroupUR (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Controls whether <span class="keyword">CICS®</span> and XA client applications
+can establish transactions with a <span class="keyword option">GROUP</span> unit of recovery disposition. <p>This
+attribute is only valid on <span class="keyword">z/OS</span> and can be enabled
+only when the queue manager is a member of a queue sharing group. </p>
+
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQGUR_DISABLED</code>
+</dt>
+
+<dd class="dlentry">
+<span class="keyword">CICS</span> and XA client applications must connect using a
+queue manager name. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQGUR_ENABLED</code>
+</dt>
+
+<dd class="dlentry">
+<span class="keyword">CICS</span> and XA client applications can establish
+transactions with a group unit of recovery disposition by specifying a queue sharing group name when they connect.
+</dd>
+
+
+</dl>
+
+</div>
+
+<p data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">See <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.tec.doc/q004240_.html">Unit of recovery
+disposition in a queue sharing group</a>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">IGQPutAuthority (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Command scope (parameter identifier: <code class="ph codeph">MQIA_IGQ_PUT_AUTHORITY</code>). This parameter is
+valid only on <span class="keyword">z/OS</span> when the queue manager is a member
+of a queue sharing group. 
+<div class="p">Specifies the type of authority checking and, therefore, the user IDs to be used by the IGQ agent
+(IGQA). This parameter establishes the authority to put messages to a destination queue. The value
+can be any of the following values:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQIGQPA_DEFAULT</code>
+</dt>
+
+<dd class="dlentry">Default user identifier is used. <p id="q087000___opap1">The user identifier used for authorization is the
+value of the <code class="ph codeph">
+<var class="keyword varname">UserIdentifier</var>
+</code> field. The <code class="ph codeph">
+<var class="keyword varname">UserIdentifier</var>
+</code> field is in the separate <span class="keyword option">MQMD</span> that is associated with the message when
+the message is on the shared transmission queue. This value is the user identifier of the program
+that placed the message on the shared transmission queue. It is typically the same as the user
+identifier under which the remote queue manager is running. </p>
+
+<p>
+<span class="ph" id="q087000___opaph1">
+<span class="ph" id="q087000___opaph3">If the <span class="keyword option">RESLEVEL</span> profile indicates that more than one user
+identifier is to be checked,</span> the user identifier of the local IGQ agent ( <code class="ph codeph">
+<var class="keyword varname">IGQUserId</var>
+</code>) is checked.</span>
+</p>
+
+</dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQIGQPA_CONTEXT</code>
+</dt>
+
+<dd class="dlentry">Context user identifier is used. <p>The user identifier used for authorization is the
+value of the <code class="ph codeph">
+<var class="keyword varname">UserIdentifier</var>
+</code> field. The <code class="ph codeph">
+<var class="keyword varname">UserIdentifier</var>
+</code> field is in the separate <span class="keyword option">MQMD</span> that is associated with the message when
+the message is on the shared transmission queue. This value is the user identifier of the program
+that placed the message on the shared transmission queue. It is typically the same as the user
+identifier under which the remote queue manager is running. </p>
+
+<p>
+<span class="ph">
+<span class="ph" id="q087000___d280e2522">If the <span class="keyword option">RESLEVEL</span> profile indicates that more than one user
+identifier is to be checked,</span> the user identifier of the local IGQ agent ( <code class="ph codeph">
+<var class="keyword varname">IGQUserId</var>
+</code>) is checked.</span>. The <span class="ph" id="q087000___opaph2">value of the <code class="ph codeph">
+<var class="keyword varname">UserIdentifier</var>
+</code> field in the embedded <span class="keyword option">MQMD</span> is also checked. The latter user identifier is
+typically the user identifier of the application that originated the message.</span>
+</p>
+
+</dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQIGQPA_ONLY_IGQ</code>
+</dt>
+
+<dd class="dlentry">Only the IGQ user identifier is used. <p id="q087000___opap2">The user identifier used for authorization
+is the user identifier of the local IGQ agent ( <code class="ph codeph">
+<var class="keyword varname">IGQUserId</var>
+</code>). </p>
+
+<p>If the <span class="keyword option">RESLEVEL</span> profile indicates that more than one user identifier is to be
+checked, this user identifier is used for all checks. </p>
+
+</dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQIGQPA_ALTERNATE_OR_IGQ</code>
+</dt>
+
+<dd class="dlentry">Alternate user identifier or IGQ-agent user identifier is used. <p>The user identifier used for authorization
+is the user identifier of the local IGQ agent ( <code class="ph codeph">
+<var class="keyword varname">IGQUserId</var>
+</code>). </p>
+
+<p>
+<span class="ph">If the <span class="keyword option">RESLEVEL</span> profile indicates that more than one user
+identifier is to be checked,</span> the <span class="ph">value of the <code class="ph codeph">
+<var class="keyword varname">UserIdentifier</var>
+</code> field in the embedded <span class="keyword option">MQMD</span> is also checked. The latter user identifier is
+typically the user identifier of the application that originated the message.</span>
+</p>
+
+</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">IGQUserId (MQCFST)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Intra-group queuing agent user identifier (parameter identifier:
+<code class="ph codeph">MQCA_IGQ_USER_ID</code>). This parameter is valid only on <span class="keyword">z/OS</span> when the queue manager is a member of a queue sharing group. 
+<p>Specifies the user identifier that is associated with the local intra-group queuing agent. This
+identifier is one of the user identifiers that might be checked for authorization when the IGQ agent
+puts messages on local queues. The actual user identifiers checked depend on the setting of the <code class="ph codeph">
+<var class="keyword varname">IGQPutAuthority</var>
+</code> attribute, and on external security options. </p>
+
+<p>The maximum length is <code class="ph codeph">MQ_USER_ID_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ImageInterval (MQCFIN)</dt>
+
+<dd class="pd">The target frequency with which the queue manager automatically writes media images, in minutes
+since the previous media image for an object (parameter identifier:
+<code class="ph codeph">MQIA_MEDIA_IMAGE_INTERVAL</code>). This parameter is not valid on <span class="keyword">z/OS</span>.<div class="p">The value can be:<dl>
+
+<dt class="dlterm"></dt>
+
+<dd class="dlentry">The time in minutes from 1 - 999 999 999, at which the queue manager automatically writes media
+images.<p>The default value is <var class="keyword varname">60</var> minutes.</p>
+</dd>
+
+
+
+<dt class="dlterm">
+<span class="keyword option">MQMEDIMGINTVL_OFF</span>
+</dt>
+
+<dd class="dlentry">Automatic media images are not written on a time interval basis.</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ImageLogLength (MQCFIN)</dt>
+
+<dd class="pd">The target size of the recovery log, written before the queue manager automatically writes media
+images, in number of megabytes since the previous media image for an object. This limits the amount
+of log to be read when recovering an object (parameter identifier:
+<code class="ph codeph">MQIA_MEDIA_IMAGE_LOG_LENGTH</code>). This parameter is not valid on <span class="keyword">z/OS</span>.<div class="p">The value can be:<dl>
+
+<dt class="dlterm"></dt>
+
+<dd class="dlentry">The target size of the recovery log in megabytes from 1 - 999 999 999. </dd>
+
+
+
+<dt class="dlterm">
+<span class="keyword option">MQMEDIMGLOGLN_OFF</span>
+</dt>
+
+<dd class="dlentry">Automatic media images are not written based on the size of log
+written.<p><span class="keyword option">MQMEDIMGLOGLN_OFF</span> is the default value.</p>
+</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ImageRecoverObject (MQCFST)</dt>
+
+<dd class="pd">Specifies whether authentication information, channel, client connection, listener, namelist,
+process, alias queue, remote queue, and service objects are recoverable from a media image, if
+linear logging is being used (parameter identifier: <code class="ph codeph">MQIA_MEDIA_IMAGE_RECOVER_OBJ</code>).
+This parameter is not valid on <span class="keyword">z/OS</span>.<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<span class="keyword option">MQIMGRCOV_NO</span>
+</dt>
+
+<dd class="dlentry">The <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/q083360_.html" title="Write the image of an object or group of objects to the log for media recovery.">rcdmqimg (record media image)</a> and<a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/q083370_.html" title="Re-create an object, or group of objects, from their images contained in the log.">rcrmqobj (re-create object)</a> commands are not permitted for
+these objects, and automatic media images, if enabled, are not written for these objects. </dd>
+
+
+
+<dt class="dlterm">
+<span class="keyword option">MQIMGRCOV_YES</span>
+</dt>
+
+<dd class="dlentry">These objects are recoverable.<p><span class="keyword option">MQIMGRCOV_YES</span> is the default value.</p>
+</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ImageRecoverQueue (MQCFST)</dt>
+
+<dd class="pd">Specifies the default <span class="keyword parmname">ImageRecoverQueue</span> attribute for local and permanent
+dynamic queue objects, when used with this parameter (parameter identifier:
+<code class="ph codeph">MQIA_MEDIA_IMAGE_RECOVER_Q</code>). This parameter is not valid on <span class="keyword">z/OS</span>.<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<span class="keyword option">MQIMGRCOV_NO </span>
+</dt>
+
+<dd class="dlentry">The <span class="keyword parmname">ImageRecoverQueue</span> attribute for local and permanent dynamic queue
+objects is set to <span class="keyword option">MQIMGRCOV_NO </span>.</dd>
+
+
+
+<dt class="dlterm">
+<span class="keyword option">MQIMGRCOV_YES</span>
+</dt>
+
+<dd class="dlentry">The <span class="keyword parmname">ImageRecoverQueue</span> attribute for local and permanent dynamic queue
+objects is set to <span class="keyword option">MQIMGRCOV_YES </span>.<p><span class="keyword option">MQIMGRCOV_YES </span> is the default
+value.</p>
+</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">ImageSchedule (MQCFST)</dt>
+
+<dd class="pd">Whether the queue manager automatically writes media images (parameter identifier:
+<code class="ph codeph">MQIA_MEDIA_IMAGE_SCHEDUING</code>). This parameter is not valid on <span class="keyword">z/OS</span>.<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<span class="keyword option">MQMEDIMGSCHED_AUTO</span>
+</dt>
+
+<dd class="dlentry">The queue manager attempts to automatically write a media image for an object, before
+<span class="keyword parmname">ImageInterval</span> minutes have elapsed, or <span class="keyword parmname">ImageLogLength</span>
+megabytes of recovery log have been written, since the previous media image for the object was
+taken.<p>The previous media image might have been taken manually or automatically, depending on the
+settings of <span class="keyword parmname">ImageInterval</span> or <span class="keyword parmname">ImageLogLength</span>.</p>
+
+</dd>
+
+
+
+<dt class="dlterm">
+<span class="keyword option">MQMEDIMGSCHED_MANUAL</span>
+</dt>
+
+<dd class="dlentry">Automatic media images are not written.<p><span class="keyword option">MQMEDIMGSCHED_MANUAL</span> is the default
+value.</p>
+</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">InhibitEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether inhibit (Inhibit Get and Inhibit Put) events are generated (parameter
+identifier: <code class="ph codeph">MQIA_INHIBIT_EVENT</code>). <div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">IntraGroupqueuing (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Command scope (parameter identifier: <code class="ph codeph">MQIA_INTRA_GROUP_QUEUING</code>). This parameter
+is valid only on <span class="keyword">z/OS</span> when the queue manager is a
+member of a queue sharing group. 
+<div class="p">Specifies whether intra-group queuing is used. The value can be any of the following values:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQIGQ_DISABLED</code>
+</dt>
+
+<dd class="dlentry">Intra-group queuing disabled. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQIGQ_ENABLED</code>
+</dt>
+
+<dd class="dlentry">Intra-group queuing enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">IPAddressVersion (MQCFIN)</dt>
+
+<dd class="pd">IP address version selector (parameter identifier: <code class="ph codeph">MQIA_IP_ADDRESS_VERSION</code>).
+
+<div class="p">Specifies which IP address version, either <span class="keyword">IP4</span>
+or <span class="keyword">IP6</span>, is used. The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQIPADDR_IP4</code></dt>
+
+<dd class="dlentry"><span class="keyword">IP4</span> is used. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQIPADDR_IP6</code></dt>
+
+<dd class="dlentry"><span class="keyword">IP6</span> is used. </dd>
+
+
+</dl>
+
+</div>
+ This parameter is only relevant for systems that run both <span class="keyword">IP4</span> and <span class="keyword">IP6</span>. It affects only channels defined as having a <code class="ph codeph"><var class="keyword varname">TransportType</var></code>
+of <code class="ph codeph">MQXPY_TCP</code> when one of the following conditions is true:<ul class="bx--list--unordered">
+<li class="bx--list__item">The channel attribute <code class="ph codeph"><var class="keyword varname">ConnectionName</var></code> is a host name that
+resolves to both an <span class="keyword">IP4</span> and <span class="keyword">IP6</span> address and its
+<span class="keyword parmname">LocalAddress</span> parameter is not specified. </li>
+
+<li class="bx--list__item">The channel attributes <code class="ph codeph"><var class="keyword varname">ConnectionName</var></code> and
+<code class="ph codeph"><var class="keyword varname">LocalAddress</var></code> are both host names that resolve to both <span class="keyword">IP4</span> and <span class="keyword">IP6</span>
+addresses. </li>
+
+</ul>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ListenerTimer (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Listener restart interval (parameter identifier: <code class="ph codeph">MQIA_LISTENER_TIMER</code>).
+
+<p>The time interval, in seconds, between attempts by <span class="keyword">IBM MQ</span> to restart the listener after an APPC or TCP/IP failure.
+This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Specify a value in the range 5 - 9,999. The initial default value of the queue manager is 60.
+</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">LocalEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether local error events are generated (parameter identifier:
+<code class="ph codeph">MQIA_LOCAL_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">LoggerEvent (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">Controls whether recovery log events are generated (parameter identifier:
+<code class="ph codeph">MQIA_LOGGER_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. This value is valid only on queue managers that use linear logging.
+</dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>.</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">LUGroupName (MQCFST)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Generic LU name for the LU 6.2 listener (parameter identifier:
+<code class="ph codeph">MQCA_LU_GROUP_NAME</code>). 
+<p>The generic LU name to be used by the LU 6.2 listener that handles inbound transmissions for the
+queue sharing group. </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_LU_NAME_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">LUName (MQCFST)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">LU name to use for outbound LU 6.2 transmissions (parameter identifier:
+<code class="ph codeph">MQCA_LU_NAME</code>). 
+<p>The name of the LU to use for outbound LU 6.2 transmissions. Set this parameter to be the same as
+the name of the LU to be used by the listener for inbound transmissions. </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_LU_NAME_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">LU62ARMSuffix (MQCFST)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">
+<span class="ph filepath">APPCPM</span> suffix (parameter identifier: <code class="ph codeph">MQCA_LU62_ARM_SUFFIX</code>).
+
+<p>The suffix of the <span class="ph filepath">APPCPM</span> member of <span class="ph filepath">SYS1.PARMLIB</span>. This
+suffix nominates the <span class="keyword option">LUADD</span> for this channel initiator. </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_ARM_SUFFIX_LENGTH</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">LU62Channels (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Maximum number of LU 6.2 channels (parameter identifier: <code class="ph codeph">MQIA_LU62_CHANNELS</code>).
+
+<p>The maximum number of channels that can be current, or clients that can be connected, that use
+the LU 6.2 transmission protocol. </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Specify a value in the range 0 - 9999. The initial default value of the queue manager is 200.
+</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">MaxActiveChannels (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Maximum number of active channels (parameter identifier: <code class="ph codeph">MQIA_ACTIVE_CHANNELS</code>
+). 
+<p>The maximum number of channels that can be <dfn class="term">active</dfn> at any time. </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Sharing conversations do not contribute to the total for this parameter. </p>
+
+<p>Specify a value in the range 1 - 9999. The initial default value of the queue manager is 200.
+</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">MaxChannels (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Maximum number of current channels (parameter identifier: <code class="ph codeph">MQIA_MAX_CHANNELS</code>).
+
+<p>The maximum number of channels that can be <dfn class="term">current</dfn> (including server-connection
+channels with connected clients). </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Sharing conversations do not contribute to the total for this parameter. </p>
+
+<p>Specify a value in the range 1 - 9999. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">MaxHandles (MQCFIN)</dt>
+
+<dd class="pd">Maximum number of handles (parameter identifier: <code class="ph codeph">MQIA_MAX_HANDLES</code>).
+
+<p>The maximum number of handles that any one connection can have open at the same time. </p>
+
+<p>Specify a value in the range 0 - 999,999,999. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">MaxMsgLength (MQCFIN)</dt>
+
+<dd class="pd">Maximum message length (parameter identifier: <code class="ph codeph">MQIA_MAX_MSG_LENGTH</code>).
+
+<p>Specifies the maximum length of messages allowed on queues on the queue manager. No message that
+is larger than either the queue attribute <code class="ph codeph"><var class="keyword varname">MaxMsgLength</var></code> or the
+queue manager attribute <code class="ph codeph"><var class="keyword varname">MaxMsgLength</var></code> can be put on a queue. </p>
+
+<p>If you reduce the maximum message length for the queue manager, you must also reduce the maximum
+message length of the <code class="ph codeph">SYSTEM.DEFAULT.LOCAL.QUEUE</code> definition, and your other queues.
+Reduce the definitions on the queues to less than or equal to the limit of the queue manager. If you
+do not reduce the message lengths appropriately, and applications inquire only the value of the
+queue attribute <code class="ph codeph"><var class="keyword varname">MaxMsgLength</var></code>, they might not work correctly. </p>
+
+<p>The lower limit for this parameter is 32 KB (32,768 bytes). The upper limit is 100 MB
+(104,857,600 bytes). </p>
+ This parameter is not valid on <span class="keyword">z/OS</span>. </dd>
+
+
+
+<dt class="pt dltermexpand">MaxPropertiesLength (MQCFIN)</dt>
+
+<dd class="pd">Maximum property length (parameter identifier: <code class="ph codeph">MQIA_MAX_PROPERTIES_LENGTH</code>).
+
+<p>Specifies the maximum length of the properties, including both the property name in bytes and the
+size of the property value in bytes. </p>
+
+<div class="p">Specify a value in the range 0 - 100 MB (104,857,600 bytes), or the special value:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQPROP_UNRESTRICTED_LENGTH</code></dt>
+
+<dd class="dlentry">The size of the properties is restricted only by the upper limit. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">MaxUncommittedMsgs (MQCFIN)</dt>
+
+<dd class="pd">Maximum uncommitted messages (parameter identifier: <code class="ph codeph">MQIA_MAX_UNCOMMITTED_MSGS</code>).
+
+<div class="p">Specifies the maximum number of uncommitted messages. The maximum number of uncommitted messages
+under any sync point is the sum of the following messages:<ul class="sl simple">
+<li class="sli bx--list__item">The number of messages that can be retrieved.</li>
+
+<li class="sli bx--list__item">The number of messages that can be put.</li>
+
+<li class="sli bx--list__item">The number of trigger messages generated within this unit of work.</li>
+
+</ul>
+ The limit does not apply to messages that are retrieved or put outside sync point. </div>
+
+<p>Specify a value in the range 1 - 10,000. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">MQIAccounting (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">Controls whether accounting information for MQI data is to be collected (parameter identifier:
+<code class="ph codeph">MQIA_ACCOUNTING_MQI</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_OFF</code></dt>
+
+<dd class="dlentry">MQI accounting data collection is disabled. This value is the initial default value of the queue
+manager. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_ON</code></dt>
+
+<dd class="dlentry">MQI accounting data collection is enabled. </dd>
+
+
+</dl>
+ This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>.</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">MQIStatistics (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">Controls whether statistics monitoring data is to be collected for the queue manager (parameter
+identifier: <code class="ph codeph">MQIA_STATISTICS_MQI</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_OFF</code></dt>
+
+<dd class="dlentry">Data collection for MQI statistics is disabled. This value is the initial default value of the
+queue manager. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_ON</code></dt>
+
+<dd class="dlentry">Data collection for MQI statistics is enabled. </dd>
+
+
+</dl>
+ This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>.</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">MsgMarkBrowseInterval (MQCFIN)</dt>
+
+<dd class="pd">Mark-browse interval (parameter identifier: <code class="ph codeph">MQIA_MSG_MARK_BROWSE_INTERVAL</code>).
+
+<p>Specifies the time interval in milliseconds after which the queue manager can automatically
+unmark messages. </p>
+
+<div class="p">Specify a value up to the maximum of  999,999,999, or the special value
+<code class="ph codeph">MQMMBI_UNLIMITED</code>. The default value is 5000.<div class="note attention border-2 bx--inline-notification--warning ibmdocs-note bx--inline-notification bx--inline-notification--low-contrast margin-top-1 margin-bottom-1"><div class="bx--inline-notification__details"><svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--inline-notification__icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10,1c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S15,1,10,1z M9.2,5h1.5v7H9.2V5z M10,16c-0.6,0-1-0.4-1-1s0.4-1,1-1	s1,0.4,1,1S10.6,16,10,16z"></path><path d="M9.2,5h1.5v7H9.2V5z M10,16c-0.6,0-1-0.4-1-1s0.4-1,1-1s1,0.4,1,1S10.6,16,10,16z" data-icon-path="inner-path" opacity="0"></path></svg>
+        <div class="bx--inline-notification__text-wrapper">
+          <div class="bx--inline-notification__subtitle"><span class="attentiontitle ibm-bold background-yellow bx--inline-notification__title ibm-padding-top-1 ibm-padding-bottom-1 padding-left-1 padding-right-1">Attention:</span> You should not
+reduce the value below the default of 5000.</div>
+        </div>
+      </div></div>
+</div>
+ MQMMBI_UNLIMITED indicates that the queue
+manager does not automatically unmark messages.  </dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">OutboundPortMax (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The maximum value in the range for the binding of outgoing channels (parameter identifier:
+<code class="ph codeph">MQIA_OUTBOUND_PORT_MAX</code>). 
+<p>The maximum value in the range of port numbers to be used when binding outgoing channels. This
+parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Specify a value in the range 0 - 65,535. The initial default value of the queue manager is zero. </p>
+
+<p>Specify a corresponding value for <code class="ph codeph">
+<var class="keyword varname">OutboundPortMin</var>
+</code> and ensure that the value of <code class="ph codeph">
+<var class="keyword varname">OutboundPortMax</var>
+</code> is greater than or equal to the value of <code class="ph codeph">
+<var class="keyword varname">OutboundPortMin</var>
+</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">OutboundPortMin (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The minimum value in the range for the binding of outgoing channels (parameter identifier:
+<code class="ph codeph">MQIA_OUTBOUND_PORT_MIN</code>). 
+<p>The minimum value in the range of port numbers to be used when binding outgoing channels. This
+parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Specify a value in the range 0 - 65,535. The initial default value of the queue manager is zero. </p>
+
+<p>Specify a corresponding value for <code class="ph codeph">
+<var class="keyword varname">OutboundPortMax</var>
+</code> and ensure that the value of <code class="ph codeph">
+<var class="keyword varname">OutboundPortMin</var>
+</code> is less than or equal to the value of <code class="ph codeph">
+<var class="keyword varname">OutboundPortMax</var>
+</code>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">Parent (MQCFST)</dt>
+
+<dd class="pd">The name of the queue manager to which this queue manager is to connect hierarchically as its
+child (parameter identifier: <code class="ph codeph">MQCA_PARENT</code>). 
+<p>A blank value indicates that this queue manager has no parent queue manager. If there is an
+existing parent queue manager it is disconnected. This value is the initial default value of the
+queue manager. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_Q_MGR_NAME_LENGTH</code>. </p>
+
+<div class="note border-2 bx--inline-notification--info ibmdocs-note bx--inline-notification bx--inline-notification--low-contrast margin-top-1 margin-bottom-1"><div class="bx--inline-notification__details"><svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--inline-notification__icon" width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,5a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,16,7Zm4,17.12H12V21.88h2.88V15.12H13V12.88h4.13v9H20Z"></path></svg>
+        <div class="bx--inline-notification__text-wrapper">
+          <div class="bx--inline-notification__subtitle"><span class="notetitle ibm-bold ibm-textcolor-blue-50 background-blue bx--inline-notification__title ibm-padding-top-1 ibm-padding-bottom-1 padding-left-1 padding-right-1">Note:</span> 
+<ul class="bx--list--unordered">
+<li class="bx--list__item">The use of <span class="keyword">IBM MQ</span> hierarchical connections requires
+that the queue manager attribute <span class="keyword option">PSMode</span> is set to <code class="ph codeph">MQPSM_ENABLED</code>. </li>
+
+<li class="bx--list__item">The value of <var class="keyword varname">Parent</var> can be set to a blank value if <span class="keyword option">PSMode</span> is
+set to <code class="ph codeph">MQPSM_DISABLED</code>. </li>
+
+<li class="bx--list__item">Before connecting to a queue manager hierarchically as its child, channels in both directions
+must exist between the parent queue manager and child queue manager. </li>
+
+<li class="bx--list__item">If a parent is defined, the <span class="keyword cmdname">Change Queue Manager</span> command disconnects from the
+original parent and sends a connection flow to the new parent queue manager. </li>
+
+<li class="bx--list__item">Successful completion of the command does not mean that the action completed or that it is going
+to complete successfully. Use the <span class="keyword cmdname">Inquire Pub/Sub Status</span> command to track the
+status of the requested parent relationship. </li>
+
+</ul>
+
+</div>
+        </div>
+      </div></div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">PerformanceEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether performance-related events are generated (parameter identifier:
+<code class="ph codeph">MQIA_PERFORMANCE_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">PubSubClus (MQCFIN)</dt>
+
+<dd class="pd">Controls whether the queue manager participates in publish/subscribe clustering (parameter
+identifier: <code class="ph codeph">MQIA_PUBSUB_CLUSTER</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQPSCLUS_ENABLED</code></dt>
+
+<dd class="dlentry">The creating or receipt of clustered topic definitions and cluster subscriptions is permitted.
+<div class="note border-2 bx--inline-notification--info ibmdocs-note bx--inline-notification bx--inline-notification--low-contrast margin-top-1 margin-bottom-1" id="q087000___psclusnote"><div class="bx--inline-notification__details"><svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--inline-notification__icon" width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,5a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,16,7Zm4,17.12H12V21.88h2.88V15.12H13V12.88h4.13v9H20Z"></path></svg>
+        <div class="bx--inline-notification__text-wrapper">
+          <div class="bx--inline-notification__subtitle"><span class="notetitle ibm-bold ibm-textcolor-blue-50 background-blue bx--inline-notification__title ibm-padding-top-1 ibm-padding-bottom-1 padding-left-1 padding-right-1">Note:</span> The introduction of a clustered topic into a large <span class="keyword">IBM MQ</span> cluster can cause a degradation in performance. This
+degradation occurs because all partial repositories are notified of all the other members of the
+cluster. Unexpected subscriptions might be created at all other nodes; for example; where
+<kbd class="ph userinput">proxysub(FORCE)</kbd> is specified. Large numbers of channels might be started from
+a queue manager; for example, on resync after a queue manager failure. </div>
+        </div>
+      </div></div>
+
+</dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQPSCLUS_DISABLED</code></dt>
+
+<dd class="dlentry">The creating or receipt of clustered topic definitions and cluster subscriptions is inhibited.
+The creations or receipts are recorded as warnings in the queue manager error logs. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">PubSubMaxMsgRetryCount (MQCFIN)</dt>
+
+<dd class="pd">The number of attempts to reprocess a message when processing a failed command message under
+sync point (parameter identifier: <code class="ph codeph">MQIA_PUBSUB_MAXMSG_RETRY_COUNT</code>).
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">0 to 999 999 999</code></dt>
+
+<dd class="dlentry">The initial value is 5. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">PubSubMode (MQCFIN)</dt>
+
+<dd class="pd">Specifies whether the publish/subscribe engine and the queued publish/subscribe interface are
+running. The publish/subscribe engine enables applications to publish or subscribe by using the
+application programming interface. The publish/subscribe interface monitors the queues used the
+queued publish/subscribe interface (parameter identifier: <code class="ph codeph">MQIA_PUBSUB_MODE</code>).
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQPSM_COMPAT</code></dt>
+
+<dd class="dlentry">The publish/subscribe engine is running. It is therefore possible to publish or subscribe by
+using the application programming interface. The queued publish/subscribe interface is not running.
+Therefore any message that is put to the queues that are monitored by the queued publish/subscribe
+interface is not acted on. <code class="ph codeph">MQPSM_COMPAT</code> is used for compatibility with versions of
+<span class="keyword">IBM Integration Bus</span> ( formerly known as <span class="keyword">WebSphere Message Broker</span>) prior to version 7 that use this queue manager. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQPSM_DISABLED</code></dt>
+
+<dd class="dlentry">The publish/subscribe engine and the queued publish/subscribe interface are not running. It is
+therefore not possible to publish or subscribe using the application programming interface. Any
+publish/subscribe messages that are put to the queues that are monitored by the queued
+publish/subscribe interface are not acted on. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQPSM_ENABLED</code></dt>
+
+<dd class="dlentry">The publish/subscribe engine and the queued publish/subscribe interface are running. It is
+therefore possible to publish or subscribe by using the application programming interface and the
+queues that are monitored by the queued publish/subscribe interface. This value is the initial
+default value of the queue manager. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">PubSubNPInputMsg (MQCFIN)</dt>
+
+<dd class="pd">Whether to discard (or keep) an undelivered input message (parameter identifier:
+<code class="ph codeph">MQIA_PUBSUB_NP_MSG</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQUNDELIVERED_DISCARD</code></dt>
+
+<dd class="dlentry">Non-persistent input messages are discarded if they cannot be processed. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQUNDELIVERED_KEEP</code></dt>
+
+<dd class="dlentry">Non-persistent input messages are not discarded if they cannot be processed. In this situation,
+the queued publish/subscribe interface continues to try the process again at appropriate intervals
+and does not continue processing subsequent messages. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">PubSubNPResponse (MQCFIN)</dt>
+
+<dd class="pd">Controls the behavior of undelivered response messages (parameter identifier:
+<code class="ph codeph">MQIA_PUBSUB_NP_RESP</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQUNDELIVERED_NORMAL</code></dt>
+
+<dd class="dlentry">Non-persistent responses that cannot be placed on the reply queue are put on the dead letter
+queue. If they cannot be placed on the dead letter queue they are discarded. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQUNDELIVERED_SAFE</code></dt>
+
+<dd class="dlentry">Non-persistent responses that cannot be placed on the reply queue are put on the dead letter
+queue. If the response cannot be sent and cannot be placed on the dead letter queue the queued
+publish/subscribe interface rolls back the current operation. The operation is tried again at
+appropriate intervals and does not continue processing subsequent messages. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQUNDELIVERED_DISCARD</code></dt>
+
+<dd class="dlentry">Non-persistent responses that are not placed on the reply queue are discarded. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQUNDELIVERED_KEEP</code></dt>
+
+<dd class="dlentry">Non-persistent responses are not placed on the dead letter queue or discarded. Instead, the
+queued publish/subscribe interface backs out the current operation and then try it again at
+appropriate intervals. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">PubSubSyncPoint (MQCFIN)</dt>
+
+<dd class="pd">Whether only persistent (or all) messages must be processed under sync point (parameter
+identifier: <code class="ph codeph">MQIA_PUBSUB_SYNC_PT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQSYNCPOINT_IFPER</code></dt>
+
+<dd class="dlentry">This value makes the queued publish/subscribe interface receive non-persistent messages outside
+sync point. If the interface receives a publication outside sync point, the interface forwards the
+publication to subscribers known to it outside sync point. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQSYNCPOINT_YES</code></dt>
+
+<dd class="dlentry">This value makes the queued publish/subscribe interface receive all messages under sync point.
+</dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">QMgrDesc (MQCFST)</dt>
+
+<dd class="pd">Queue manager description (parameter identifier: <code class="ph codeph">MQCA_Q_MGR_DESC</code>).
+
+<p>This parameter is text that briefly describes the object. </p>
+
+<p>The maximum length of the string is <code class="ph codeph">MQ_Q_MGR_DESC_LENGTH</code>. </p>
+
+<p>Use characters from the character set identified by the coded character set identifier (CCSID)
+for the queue manager on which the command is executing. Using this character set ensures that the
+text is translated correctly. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">QSGCertificateLabel (MQCFST)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Specifies the certificate label for the queue sharing group to use (parameter identifier:
+<code class="ph codeph">MQCA_QSG_CERT_LABEL</code>). <p>This parameter takes precedence over
+<span class="keyword parmname">CERTLABL</span> in the event that the queue manager is a member of a QSG.</p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">QueueAccounting (MQCFIN)</dt>
+
+<dd class="pd">Controls the collection of accounting (thread-level and queue-level accounting) data for queues
+(parameter identifier: <code class="ph codeph">MQIA_ACCOUNTING_Q</code>).  Note, that changes to this value are
+only effective for connections to the queue manager that occur after the change to the
+attribute.
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_NONE</code></dt>
+
+<dd class="dlentry">Accounting data collection for queues is disabled. This value must not be overridden by the
+value of the <span class="keyword parmname">QueueAccounting</span> parameter on the queue. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_OFF</code></dt>
+
+<dd class="dlentry">Accounting data collection is disabled for queues specifying a value of
+<code class="ph codeph">MQMON_Q_MGR</code> in the <span class="keyword parmname">QueueAccounting</span> parameter. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_ON</code></dt>
+
+<dd class="dlentry">Accounting data collection is enabled for queues specifying a value of
+<code class="ph codeph">MQMON_Q_MGR</code> in the <span class="keyword parmname">QueueAccounting</span> parameter. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">QueueMonitoring (MQCFIN)</dt>
+
+<dd class="pd">Default setting for online monitoring for queues (parameter identifier:
+<code class="ph codeph">MQIA_MONITORING_Q</code>). 
+<div class="p">If the <span class="keyword parmname">QueueMonitoring</span> queue attribute is set to
+<code class="ph codeph">MQMON_Q_MGR</code>, this attribute specifies the value which is assumed by the channel.
+The value can be any of the following values:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_OFF</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned off. This value is the initial default value of the
+queue manager. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_NONE</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned off for queues regardless of the setting of their
+<span class="keyword parmname">QueueMonitoring</span> attribute. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_LOW</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned on, with a low ratio of data collection. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_MEDIUM</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned on, with a moderate ratio of data collection. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_HIGH</code></dt>
+
+<dd class="dlentry">Online monitoring data collection is turned on, with a high ratio of data collection. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">QueueStatistics (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">Controls whether statistics data is to be collected for queues (parameter identifier:
+<code class="ph codeph">MQIA_STATISTICS_Q</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQMON_NONE</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned off for queues regardless of the setting of their
+<span class="keyword parmname">QueueStatistics</span> parameter. This value is the initial default
+value of the queue manager. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_OFF</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned off for queues specifying a value of
+<code class="ph codeph">MQMON_Q_MGR</code> in their <span class="keyword parmname">QueueStatistics</span> parameter.
+</dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQMON_ON</code></dt>
+
+<dd class="dlentry">Statistics data collection is turned on for queues specifying a value of
+<code class="ph codeph">MQMON_Q_MGR</code> in their <span class="keyword parmname">QueueStatistics</span> parameter.
+</dd>
+
+
+</dl>
+ This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>. </div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ReceiveTimeout (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">How long a TCP/IP channel waits to receive data from its partner (parameter identifier:
+<code class="ph codeph">MQIA_RECEIVE_TIMEOUT</code>). 
+<p>The approximate length of time that a TCP/IP channel waits to receive data, including heartbeats,
+from its partner before returning to the inactive state. </p>
+
+<div class="p">This parameter applies to <span class="keyword">z/OS</span> only. It applies to
+message channels, and not to MQI channels. This number can be qualified as follows:<ul class="bx--list--unordered">
+<li class="bx--list__item">This number is a multiplier to be applied to the negotiated <code class="ph codeph">
+<var class="keyword varname">HeartBeatInterval</var>
+</code> value to determine how long a channel is to wait. Set <code class="ph codeph">
+<var class="keyword varname">ReceiveTimeoutType</var>
+</code> to <code class="ph codeph">MQRCVTIME_MULTIPLY</code>. Specify a value of zero or in the range 2 - 99. If
+you specify zero, the channel waits indefinitely to receive data from its partner. </li>
+
+<li class="bx--list__item">This number is a value, in seconds, to be added to the negotiated <code class="ph codeph">
+<var class="keyword varname">HeartBeatInterval</var>
+</code> value to determine how long a channel is to wait. Set <code class="ph codeph">
+<var class="keyword varname">ReceiveTimeoutType</var>
+</code> to <code class="ph codeph">MQRCVTIME_ADD</code>. Specify a value in the range 1 - 999,999. </li>
+
+<li class="bx--list__item">Tthis number is a value, in seconds, that the channel is to wait, set <code class="ph codeph">
+<var class="keyword varname">ReceiveTimeoutType</var>
+</code> to <code class="ph codeph">MQRCVTIME_EQUAL</code>. Specify a value in the range 0 - 999,999. If you
+specify 0, the channel waits indefinitely to receive data from its partner. </li>
+
+</ul>
+
+</div>
+ The initial default value of the queue manager is zero. </dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ReceiveTimeoutMin (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The minimum length of time that a TCP/IP channel waits to receive data from its partner
+(parameter identifier: <code class="ph codeph">MQIA_RECEIVE_TIMEOUT_MIN</code>). 
+<p>The minimum length of time that a TCP/IP channel waits to receive data, including heartbeats,
+from its partner before returning to the inactive state. This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+<p>Specify a value in the range 0 - 999,999. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">ReceiveTimeoutType (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The qualifier to apply to <code class="ph codeph">
+<var class="keyword varname">ReceiveTimeout</var>
+</code> (parameter identifier: <code class="ph codeph">MQIA_RECEIVE_TIMEOUT_TYPE</code>).
+
+<p>The qualifier to apply to <code class="ph codeph">
+<var class="keyword varname">ReceiveTimeoutType</var>
+</code> to calculate how long a TCP/IP channel waits to receive data, including heartbeats, from
+its partner. It waits to receive data before returning to the inactive state. This parameter applies
+to <span class="keyword">z/OS</span> only. </p>
+
+<div class="p">The value can be any of the following values:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQRCVTIME_MULTIPLY</code>
+</dt>
+
+<dd class="dlentry">The <code class="ph codeph">
+<var class="keyword varname">ReceiveTimeout</var>
+</code> value is a multiplier to be applied to the negotiated value of <code class="ph codeph">
+<var class="keyword varname">HeartbeatInterval</var>
+</code> to determine how long a channel waits. This value is the initial default value of the
+queue manager. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQRCVTIME_ADD</code>
+</dt>
+
+<dd class="dlentry">
+<code class="ph codeph">
+<var class="keyword varname">ReceiveTimeout</var>
+</code> is a value, in seconds, to be added to the negotiated value of <code class="ph codeph">
+<var class="keyword varname">HeartbeatInterval</var>
+</code> to determine how long a channel waits. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQRCVTIME_EQUAL</code>
+</dt>
+
+<dd class="dlentry">
+<code class="ph codeph">
+<var class="keyword varname">ReceiveTimeout</var>
+</code> is a value, in seconds, representing how long a channel waits. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">RemoteEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether remote error events are generated (parameter identifier:
+<code class="ph codeph">MQIA_REMOTE_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">RepositoryName (MQCFST)</dt>
+
+<dd class="pd">Cluster name (parameter identifier: <code class="ph codeph">MQCA_REPOSITORY_NAME</code>).
+
+<p>The name of a cluster for which this queue manager provides a repository manager service. </p>
+
+<p>The maximum length of the string is MQ_OBJECT_NAME_LENGTH. </p>
+
+<p>No more than one of the resultant values of <code class="ph codeph"><var class="keyword varname">RepositoryName</var></code>
+can be nonblank. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">RepositoryNamelist (MQCFST)</dt>
+
+<dd class="pd">Repository namelist (parameter identifier: <code class="ph codeph">MQCA_REPOSITORY_NAMELIST</code>).
+
+<p>The name, of a namelist of clusters, for which this queue manager provides a repository manager
+service. </p>
+
+<div class="p">This queue manager does not have a full repository, but can be a client of other repository
+services that are defined in the cluster, if<ul class="bx--list--unordered">
+<li class="bx--list__item">Both <code class="ph codeph"><var class="keyword varname">RepositoryName</var></code> and
+<code class="ph codeph"><var class="keyword varname">RepositoryNamelist</var></code> are blank, or </li>
+
+<li class="bx--list__item"><code class="ph codeph"><var class="keyword varname">RepositoryName</var></code> is blank and the namelist specified by
+<code class="ph codeph"><var class="keyword varname">RepositoryNamelist</var></code> is empty. </li>
+
+</ul>
+
+</div>
+
+<p>No more than one of the resultant values of
+<code class="ph codeph"><var class="keyword varname">RepositoryNameList</var></code> can be nonblank. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">RevDns (MQCFIN)</dt>
+
+<dd class="pd">Whether reverse lookup of the host name from a Domain Name Server is carried out. (parameter
+identifier: <code class="ph codeph">MQIA_REVERSE_DNS_LOOKUP</code>). 
+<p>This attribute has an effect only on channels using a transport type (TRPTYPE) of TCP. </p>
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQRDNS_DISABLED</code></dt>
+
+<dd class="dlentry">DNS host names are not reverse looked-up for the IP addresses of inbound channels. With this
+setting any CHLAUTH rules using host names are not matched. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRDNS_ENABLED</code></dt>
+
+<dd class="dlentry">DNS host names are reverse looked-up for the IP addresses of inbound channels when this
+information is required. This setting is required for matching against CHLAUTH rules that contain
+host names, and for writing out error messages. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">SecurityCase (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Security case supported (parameter identifier: <code class="ph codeph">MQIA_SECURITY_CASE</code>).
+
+<p>Specifies whether the queue manager supports security profile names in mixed case, or in
+uppercase only. The value is activated when a Refresh Security command is run with <code class="ph codeph">
+<var class="keyword varname">SecurityType(MQSECTYPE_CLASSES)</var>
+</code> specified. This parameter is valid only on <span class="keyword">z/OS</span>. </p>
+
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQSCYC_UPPER</code>
+</dt>
+
+<dd class="dlentry">Security profile names must be in uppercase. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQSCYC_MIXED</code>
+</dt>
+
+<dd class="dlentry">Security profile names can be in uppercase or in mixed case. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">SharedQQmgrName (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Shared-queue queue manager name (parameter identifier: <code class="ph codeph">MQIA_SHARED_Q_Q_MGR_NAME</code>
+). 
+<p>A queue manager makes an <span class="keyword apiname">MQOPEN</span> call for a shared queue. The queue manager
+that is specified in the <span class="keyword parmname">ObjectQmgrName</span> parameter of the <span class="keyword apiname">MQOPEN</span> call is in the same queue sharing group as the
+processing queue manager. The <span class="keyword option">SQQMNAME</span> attribute specifies whether the <span class="keyword parmname">ObjectQmgrName</span> is used or whether the processing queue manager opens the shared queue directly. This parameter is valid only on <span class="keyword">z/OS</span>. </p>
+
+<div class="p">The value can be any of the following values:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQSQQM_USE</code>
+</dt>
+
+<dd class="dlentry">
+<code class="ph codeph">
+<var class="keyword varname">ObjectQmgrName</var>
+</code> is used and the appropriate transmission queue is opened. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQSQQM_IGNORE</code>
+</dt>
+
+<dd class="dlentry">The processing queue manager opens the shared queue directly. This value can reduce the traffic
+in your queue manager network. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">SSLCRLNamelist (MQCFST)</dt>
+
+<dd class="pd">The TLS namelist (parameter identifier: <code class="ph codeph">MQCA_SSL_CRL_NAMELIST</code>).
+
+<p>The length of the string is <code class="ph codeph">MQ_NAMELIST_NAME_LENGTH</code>. </p>
+
+<p>Indicates the name of a namelist of authentication information objects which are used to provide
+certificate revocation locations to allow enhanced TLS certificate checking. </p>
+
+<p>If <code class="ph codeph"><var class="keyword varname">SSLCRLNamelist</var></code> is blank, certificate revocation checking
+is not invoked. </p>
+
+<div class="p">Changes to <code class="ph codeph"><var class="keyword varname">SSLCRLNamelist</var></code>, or to the names in a previously
+specified namelist, or to previously referenced authentication information objects become effective:<ul class="bx--list--unordered">
+<li data-hd-platform="multi" class="bx--list__item"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">On <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>, when a new channel process is started. </li>
+
+<li data-hd-platform="multi" class="bx--list__item"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">For channels that run as threads of the channel initiator on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>, when the channel initiator is restarted.</li>
+
+<li data-hd-platform="multi" class="bx--list__item"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">For channels that run as threads of the listener on Multiplatforms, when the listener is restarted.</li>
+
+<li data-hd-platform="zos" class="bx--list__item"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">On <span class="keyword">z/OS</span>, when the channel initiator is restarted. </li>
+
+<li class="bx--list__item">When a <span class="keyword cmdname">REFRESH SECURITY TYPE(SSL)</span> command is issued. </li>
+
+<li data-hd-platform="ibmi" class="bx--list__item"><img alt="[IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngibmi.gif" class="ibmdocs-image-downsize">On <span class="keyword">IBM i</span> queue managers, this parameter is
+ignored. However, it is used to determine which authentication information objects are written to
+the <span class="ph filepath">AMQCLCHL.TAB</span> file. </li>
+
+</ul>
+
+</div>
+
+<p id="q087000___sslcrlnl_types">Only authentication information objects with types of
+<code class="ph codeph">LDAPCRL</code> or <code class="ph codeph">OCSP</code> are allowed in the namelist referred to by
+<var class="keyword varname">SSLCRLNamelist</var> (MQCFST). Any other type results in an error message when the list
+is processed and is subsequently ignored. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">SSLCryptoHardware (MQCFST)</dt>
+
+<dd class="pd">The TLS cryptographic hardware (parameter identifier:
+<code class="ph codeph">MQCA_SSL_CRYPTO_HARDWARE</code>). 
+<p>The length of the string is <code class="ph codeph">MQ_SSL_CRYPTO_HARDWARE_LENGTH</code>. </p>
+
+<p>Sets the name of the parameter string required to configure the cryptographic hardware present on
+the system. </p>
+
+<p>This parameter is valid only on <span class="keyword">AIX, Linux, and Windows</span>. </p>
+
+<div class="p">All supported cryptographic hardware supports the PKCS #11 interface. Specify a string of the
+following format:
+<div class="bx--snippet bx--snippet--multi bx--snippet--expand"><div class="bx--snippet-container" tabindex="0" aria-label="Code snippet"><pre class="codeblock"><code class="language-plaintext hljs">
+GSK_PKCS11=PKCS_#11_driver_path_and_file_name;PKCS_#11_token_label;PKCS_#11_token_password;symmetric_cipher_setting;
+</code></pre></div><button data-copy-btn="" class="bx--copy-btn" aria-label="Copy to clipboard" title="Copy to clipboard" type="button" tabindex="0"><span class="bx--assistive-text bx--copy-btn__feedback">Copied!</span><svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--snippet__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M14,5v9H5V5h9m0-1H5A1,1,0,0,0,4,5v9a1,1,0,0,0,1,1h9a1,1,0,0,0,1-1V5a1,1,0,0,0-1-1Z"></path><path d="M2,9H1V2A1,1,0,0,1,2,1H9V2H2Z"></path></svg>
+      </button></div>
+</div>
+
+<p>The PKCS #11 driver path is an absolute path to the shared library providing support for the PKCS
+#11 card. The PKCS #11 driver file name is the name of the shared library. An example of the value
+required for the PKCS #11 driver path and file name is
+<code class="ph codeph">/usr/lib/pkcs11/PKCS11_API.so</code>
+</p>
+
+<div class="p">To access symmetric cipher operations through GSKit, specify the symmetric cipher setting
+parameter. The value of this parameter is either:<dl>
+
+<dt class="dlterm"><code class="ph codeph">SYMMETRIC_CIPHER_OFF</code></dt>
+
+<dd class="dlentry">Do not access symmetric cipher operations. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">SYMMETRIC_CIPHER_ON</code></dt>
+
+<dd class="dlentry">Access symmetric cipher operations. </dd>
+
+
+</dl>
+ If the symmetric cipher setting is not specified, this value has the same effect as specifying
+<code class="ph codeph">SYMMETRIC_CIPHER_OFF</code>. </div>
+
+<p>The maximum length of the string is 256 characters. The default value is blank. </p>
+
+<p>If you specify a string in the wrong format, you get an error. </p>
+
+<div class="p">When the <var class="keyword varname">SSLCryptoHardware</var> (MQCFST) value is changed, the cryptographic
+hardware parameters specified become the ones used for new TLS connection environments. The new
+information becomes effective:<ul class="bx--list--unordered">
+<li class="bx--list__item">When a new channel process is started. </li>
+
+<li class="bx--list__item">For channels that run as threads of the channel initiator, when the channel initiator is
+restarted. </li>
+
+<li class="bx--list__item">For channels that run as threads of the listener, when the listener is restarted. </li>
+
+<li class="bx--list__item">When a Refresh Security command is issued to refresh the contents of the TLS key repository.
+</li>
+
+</ul>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">SSLEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether TLS events are generated (parameter identifier:
+<code class="ph codeph">MQIA_SSL_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">SSLFipsRequired (MQCFIN)</dt>
+
+<dd class="pd">SSLFIPS specifies whether only FIPS-certified algorithms are to be used if cryptography is
+carried out in <span class="keyword">IBM MQ</span>, rather than in cryptographic
+hardware (parameter identifier: <code class="ph codeph">MQIA_SSL_FIPS_REQUIRED</code>). 
+<p>If cryptographic hardware is configured, the cryptographic modules used are those modules
+provided by the hardware product. These modules might, or might not, be FIPS-certified to a
+particular level depending on the hardware product in use. This parameter applies to <span class="keyword">z/OS</span>, <span class="keyword">AIX, Linux, and Windows</span> platforms only. </p>
+
+<div class="p">The value can be any of the following values:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQSSL_FIPS_NO</code></dt>
+
+<dd class="dlentry"><span class="keyword">IBM MQ</span> provides an implementation of TLS
+cryptography which supplies some FIPS-certified modules on some platforms. If you set
+<code class="ph codeph"><var class="keyword varname">SSLFIPSRequired</var></code> to <code class="ph codeph">MQSSL_FIPS_NO</code>, any
+CipherSpec supported on a particular platform can be used. This value is the initial default value
+of the queue manager. <p>If the queue manager runs without using cryptographic hardware, refer to
+the CipherSpecs listed in <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.sec.doc/q014260_.html">Specifying
+CipherSpecs</a> employing FIPS 140-2 certified cryptography: </p>
+
+</dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQSSL_FIPS_YES</code></dt>
+
+<dd class="dlentry">Specifies that only FIPS-certified algorithms are to be used in the CipherSpecs allowed on all
+TLS connections from and to this queue manager. <p>For a listing of appropriate FIPS 140-2 certified
+CipherSpecs; see <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.sec.doc/q014260_.html">Specifying
+CipherSpecs</a>. </p>
+
+</dd>
+
+
+</dl>
+ Changes to <span class="keyword option">SSLFIPS</span> become effective either:<ul class="bx--list--unordered">
+<li class="bx--list__item">On <span class="keyword">AIX, Linux, and Windows</span>, when a new channel process is started. </li>
+
+<li class="bx--list__item">For channels that run as threads of the channel initiator on <span class="keyword">AIX, Linux, and Windows</span>, when the channel initiator is restarted. </li>
+
+<li class="bx--list__item">For channels that run as threads of the listener on <span class="keyword">AIX, Linux, and Windows</span>, when the listener is restarted. </li>
+
+<li class="bx--list__item">For channels that run as threads of a process pooling process, when the process pooling process is started or restarted and first runs a TLS channel. If the process pooling process has already run
+a TLS channel, and you want the change to become effective immediately, run the MQSC command
+<span class="keyword cmdname">REFRESH SECURITY TYPE(SSL)</span>. The process pooling process is
+<span class="keyword cmdname">amqrmppa</span> on <span class="keyword">AIX, Linux, and Windows</span>. </li>
+
+<li class="bx--list__item">On <span class="keyword">z/OS</span>, when the channel initiator is restarted. </li>
+
+<li class="bx--list__item">When a <span class="keyword cmdname">REFRESH SECURITY TYPE(SSL)</span> command is issued, except on <span class="keyword">z/OS</span>. </li>
+
+</ul>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">SSLKeyRepository (MQCFST)</dt>
+
+<dd class="pd">The TLS key repository (parameter identifier: <code class="ph codeph">MQCA_SSL_KEY_REPOSITORY</code>).
+
+<p>The length of the string is <code class="ph codeph">MQ_SSL_KEY_REPOSITORY_LENGTH</code>. </p>
+
+<p>Indicates the name of the Secure Sockets Layer key repository. </p>
+
+<div class="p">The format of the name depends on the environment:<ul class="bx--list--unordered">
+<li class="bx--list__item">On <span class="keyword">z/OS</span>, it is the name of a key ring. </li>
+
+<li class="bx--list__item">On <span class="keyword">IBM i</span>, it is of the form <span class="ph filepath"><var class="keyword varname">pathname</var>/<var class="keyword varname">keyfile</var></span>, where <span class="ph filepath"><var class="keyword varname">keyfile</var></span> is specified without the suffix ( <span class="ph filepath">.kdb</span> ), and identifies a GSKit
+key database file. The default value is
+<span class="ph filepath">/QIBM/UserData/ICSS/Cert/Server/Default.</span>
+<p>If you specify <code class="ph codeph">*SYSTEM</code>, <span class="keyword">IBM MQ</span> uses
+the system certificate store as the key repository for the queue manager. As a result, the queue
+manager is registered as a server application in Digital Certificate Manager (DCM). You can assign
+any server/client certificate in the system store to this application. </p>
+
+<p>If you change the <span class="keyword option">SSLKEYR</span> parameter to a value other than
+<code class="ph codeph">*SYSTEM</code>, <span class="keyword">IBM MQ</span> unregisters the queue
+manager as an application with DCM. </p>
+
+</li>
+
+<li class="bx--list__item">On <span class="keyword">AIX and Linux</span>, it is of the form <span class="ph filepath"><var class="keyword varname">pathname</var>/<var class="keyword varname">keyfile</var></span> and on <span class="keyword">Windows</span>
+<span class="ph filepath"><var class="keyword varname">pathname</var>\<var class="keyword varname">keyfile</var></span>, where <span class="ph filepath"><var class="keyword varname">keyfile</var></span> is specified without the suffix ( <span class="ph filepath">.kdb</span> ), and identifies a GSKit
+key database file. The default value for <span class="keyword">AIX and Linux</span> is <span class="ph filepath">/var/mqm/qmgrs/QMGR/ssl/key</span>, and on <span class="keyword">Windows</span> 
+it is <span class="ph filepath"><span class="keyword">C:\Program Files\IBM\MQ</span>\qmgrs\QMGR\ssl\key</span>, where <code class="ph codeph">QMGR</code> is replaced by the queue manager name. </li>
+
+</ul>
+
+</div>
+
+<p data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">On <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>, the syntax of this parameter
+is validated to ensure that it contains a valid, absolute, directory path. </p>
+
+<p>If <span class="keyword option">SSLKEYR</span> is blank, or is a value that does not correspond to a key ring or key
+database file, channels using TLS fail to start. </p>
+
+<div class="p">Changes to <span class="keyword option">SSLKeyRepository</span> become effective as follows:<ul class="bx--list--unordered">
+<li data-hd-platform="multi" class="bx--list__item"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">On <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>:
+<ul class="bx--list--unordered bx--list--nested">
+<li class="bx--list__item">when a new channel process is started</li>
+
+<li class="bx--list__item">for channels that run as threads of the channel initiator, when the channel initiator is restarted. </li>
+
+<li class="bx--list__item">for channels that run as threads of the listener, when the listener is restarted. </li>
+
+</ul>
+
+</li>
+
+<li data-hd-platform="zos" class="bx--list__item"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">On <span class="keyword">z/OS</span>, when the channel initiator is restarted.
+</li>
+
+</ul>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">SSLKeyResetCount (MQCFIN)</dt>
+
+<dd class="pd">SSL key reset count (parameter identifier: <code class="ph codeph">MQIA_SSL_RESET_COUNT</code>).
+
+<p>Specifies when TLS channel MCAs that initiate communication reset the secret key used for
+encryption on the channel. The value of this parameter represents the total number of unencrypted
+bytes that are sent and received on the channel before the secret key is renegotiated. This number
+of bytes includes control information sent by the MCA. </p>
+
+<div class="p">The secret key is renegotiated when (whichever occurs first):<ul class="bx--list--unordered">
+<li class="bx--list__item">The total number of unencrypted bytes sent and received by the initiating channel MCA exceeds
+the specified value, or, </li>
+
+<li class="bx--list__item">If channel heartbeats are enabled, before data is sent or received following a channel
+heartbeat. </li>
+
+</ul>
+
+</div>
+
+<p>Specify a value in the range 0 - 999,999,999. A value of zero, the initial default value of the
+queue manager, signifies that secret keys are never renegotiated. If you specify a TLS secret key
+reset count between 1 byte through 32 KB, TLS channels use a secret key reset count of 32Kb. This
+count is to avoid the performance effect of excessive key resets which would occur for small TLS
+secret key reset values. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">SSLTasks (MQCFIN)</dt>
+
+<dd class="pd">Number of server subtasks to use for processing TLS calls (parameter identifier:
+<code class="ph codeph">MQIA_SSL_TASKS</code>). This parameter applies to <span class="keyword">z/OS</span> only. 
+<p>The number of server subtasks to use for processing TLS calls. To use TLS channels, you must have
+at least two of these tasks running. </p>
+
+<p>Specify a value in the range 0 - 9999. However, to avoid problems with storage allocation, do not
+set this parameter to a value greater than 50. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">StartStopEvent (MQCFIN)</dt>
+
+<dd class="pd">Controls whether start and stop events are generated (parameter identifier:
+<code class="ph codeph">MQIA_START_STOP_EVENT</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_DISABLED</code></dt>
+
+<dd class="dlentry">Event reporting disabled. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQEVR_ENABLED</code></dt>
+
+<dd class="dlentry">Event reporting enabled. </dd>
+
+
+</dl>
+
+</div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="multi"><img alt="[UNIX, Linux, Windows, IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngmulti.gif" class="ibmdocs-image-downsize">StatisticsInterval (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="multiNOFLAG">The time interval, in seconds, at which statistics monitoring data is written to the monitoring
+queue (parameter identifier: <code class="ph codeph">MQIA_STATISTICS_INTERVAL</code>).
+
+<p>Specify a value in the range 1 - 604,000. </p>
+
+<p>This parameter is valid only on <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.pro.doc/q129940_.html#q129940___platicons">Multiplatforms</a>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">TCPChannels (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The maximum number of channels that can be current, or clients that can be connected, that use
+the TCP/IP transmission protocol (parameter identifier: <code class="ph codeph">MQIA_TCP_CHANNELS</code>).
+
+<p>Specify a value in the range 0 - 9999. The initial default value of the queue manager is 200. </p>
+
+<p>Sharing conversations do not contribute to the total for this parameter. </p>
+
+<p>This parameter applies to <span class="keyword">z/OS</span> only. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">TCPKeepAlive (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Specifies whether the <code class="ph codeph">TCP KEEPALIVE</code> facility is to be used to check whether the
+other end of a connection is still available (parameter identifier:
+<code class="ph codeph">MQIA_TCP_KEEP_ALIVE</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQTCPKEEP_YES</code>
+</dt>
+
+<dd class="dlentry">The <code class="ph codeph">TCP KEEPALIVE</code> facility is to be used as specified in the TCP profile
+configuration data set. The interval is specified in the <code class="ph codeph">
+<var class="keyword varname">KeepAliveInterval</var>
+</code> channel attribute. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQTCPKEEP_NO</code>
+</dt>
+
+<dd class="dlentry">The <code class="ph codeph">TCP KEEPALIVE</code> facility is not to be used. This value is the initial default
+value of the queue manager. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter applies only to <span class="keyword">z/OS</span>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">TCPName (MQCFST)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">The name of the TCP/IP system that you are using (parameter identifier:
+<code class="ph codeph">MQIA_TCP_NAME</code>). 
+<p>The maximum length of the string is <code class="ph codeph">MQ_TCP_NAME_LENGTH</code>. </p>
+
+<p>This parameter applies only to <span class="keyword">z/OS</span>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand" data-hd-platform="zos"><img alt="[z/OS]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngzos.gif" class="ibmdocs-image-downsize">TCPStackType (MQCFIN)</dt>
+
+<dd class="pd" data-hd-platform="zosNOFLAG">Specifies whether the channel initiator can use only the TCP/IP address space specified in <code class="ph codeph">
+<var class="keyword varname">TCPName</var>
+</code>, or can optionally bind to any selected TCP/IP address (parameter identifier:
+<code class="ph codeph">MQIA_TCP_STACK_TYPE</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm">
+<code class="ph codeph">MQTCPSTACK_SINGLE</code>
+</dt>
+
+<dd class="dlentry">The channel initiator uses the TCP/IP address space that is specified in <code class="ph codeph">
+<var class="keyword varname">TCPName</var>
+</code>. This value is the initial default value of the queue manager. </dd>
+
+
+
+<dt class="dlterm">
+<code class="ph codeph">MQTCPSTACK_MULTIPLE</code>
+</dt>
+
+<dd class="dlentry">The channel initiator can use any TCP/IP address space available to it. It defaults to the one
+specified in <code class="ph codeph">
+<var class="keyword varname">TCPName</var>
+</code> if no other is specified for a channel or listener. </dd>
+
+
+</dl>
+
+</div>
+
+<p>This parameter applies only to <span class="keyword">z/OS</span>. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">TraceRouteRecording (MQCFIN)</dt>
+
+<dd class="pd">Specifies whether trace-route information can be recorded and a reply message generated
+(parameter identifier: <code class="ph codeph">MQIA_TRACE_ROUTE_RECORDING</code>). 
+<div class="p">The value can be:<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQRECORDING_DISABLED</code></dt>
+
+<dd class="dlentry">Trace-route information cannot be recorded. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRECORDING_MSG</code></dt>
+
+<dd class="dlentry">Trace-route information can be recorded and replies sent to the destination specified by the
+originator of the message causing the trace-route record. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRECORDING_Q</code></dt>
+
+<dd class="dlentry">Trace-route information can be recorded and replies sent to
+<code class="ph codeph">SYSTEM.ADMIN.TRACE.ROUTE.QUEUE</code>. </dd>
+
+
+</dl>
+ If participation in route tracing is enabled using this queue manager attribute, the value of
+the attribute is only important if a reply is generated. Route tracing is enabled by not setting
+<var class="keyword varname">TraceRouteRecording</var> to <code class="ph codeph">MQRECORDING_DISABLED</code>. The reply must go
+either to <code class="ph codeph">SYSTEM.ADMIN.TRACE.ROUTE.QUEUE</code>, or to the destination specified by the
+message itself. Provided the attribute is not disabled then messages not yet at the final
+destination might have information added to them. For more information about trace-route records,
+see <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.mon.doc/q036720_.html">Controlling trace-route
+messaging</a>. </div>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">TreeLifeTime (MQCFIN)</dt>
+
+<dd class="pd">The lifetime, in seconds, of non-administrative topics (parameter identifier:
+<code class="ph codeph">MQIA_TREE_LIFE_TIME</code>). 
+<p>Non-administrative topics are those topics created when an application publishes to, or
+subscribes as, a topic string that does not exist as an administrative node.
+
+When this non-administrative node no longer has any active subscriptions, this parameter determines
+how long the queue manager waits before removing that node. Only non-administrative topics that are
+in use by a durable subscription remain after the queue manager is recycled. </p>
+
+<p>Specify a value in the range 0 - 604,000. A value of 0 means that non-administrative topics are
+not removed by the queue manager. The initial default value of the queue manager is 1800. </p>
+
+</dd>
+
+
+
+<dt class="pt dltermexpand">TriggerInterval (MQCFIN)</dt>
+
+<dd class="pd">Trigger interval (parameter identifier: <code class="ph codeph">MQIA_TRIGGER_INTERVAL</code>).
+
+<p>Specifies the trigger time interval, expressed in milliseconds, for use only with queues where
+<code class="ph codeph"><var class="keyword varname">TriggerType</var></code> has a value of <code class="ph codeph">MQTT_FIRST</code>. </p>
+
+<p>In this case, trigger messages are normally generated only when a suitable message arrives on the
+queue, and the queue was previously empty. Under certain circumstances, however, an additional
+trigger message can be generated with <code class="ph codeph">MQTT_FIRST</code> triggering, even if the queue was
+not empty. These additional trigger messages are not generated more often than every
+<code class="ph codeph"><var class="keyword varname">TriggerInterval</var></code> milliseconds. </p>
+
+<p>Specify a value in the range 0 - 999,999,999. </p>
+
+</dd>
+
+
+</dl>
+
+</section>
+
+<section class="section" role="region" aria-labelledby="d422257e6822"><h2 class="sectiontitle bx--type-expressive-heading-04" id="d422257e6822">Error codes (Change Queue Manager)</h2>
+
+<p>This command might return the following errors in the response format header, in addition to the
+values shown on page <a href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/q086880_.html#q086880___7">Error codes applicable to all commands</a>. </p>
+
+</section>
+
+<div class="section">
+<dl class="parml">
+
+<dt class="pt dlterm">Reason (MQLONG)</dt>
+
+<dd class="pd">The value can be any of the following values: 
+<dl>
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_CERT_LABEL_NOT_ALLOWED</code></dt>
+
+<dd class="dlentry">Certificate label error. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_CHAD_ERROR</code></dt>
+
+<dd class="dlentry">Channel automatic definition error. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_CHAD_EVENT_ERROR</code></dt>
+
+<dd class="dlentry">Channel automatic definition event error. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_CHAD_EVENT_WRONG_TYPE</code></dt>
+
+<dd class="dlentry">Channel automatic definition event parameter not allowed for this channel type. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_CHAD_EXIT_ERROR</code></dt>
+
+<dd class="dlentry">Channel automatic definition exit name error. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_CHAD_EXIT_WRONG_TYPE</code></dt>
+
+<dd class="dlentry">Channel automatic definition exit parameter not allowed for this channel type. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_CHAD_WRONG_TYPE</code></dt>
+
+<dd class="dlentry">Channel automatic definition parameter not allowed for this channel type. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_FORCE_VALUE_ERROR</code></dt>
+
+<dd class="dlentry">Force value not valid. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_PATH_NOT_VALID</code></dt>
+
+<dd class="dlentry">Path not valid. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_PWD_LENGTH_ERROR</code></dt>
+
+<dd class="dlentry">Password length error. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_PSCLUS_DISABLED_TOPDEF</code></dt>
+
+<dd class="dlentry">Administrator or application attempted to define a cluster topic when
+<span class="keyword parmname">PubSubClub</span> is set to <span class="keyword option">MQPSCLUS_DISABLED</span>. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_PSCLUS_TOPIC_EXSITS</code></dt>
+
+<dd class="dlentry">Administrator tried to set <span class="keyword parmname">PubSubClub</span> to <span class="keyword option">MQPSCLUS_DISABLED</span>
+when a cluster topic definition exists. </dd>
+
+
+
+<dt class="dlterm" data-hd-platform="ibmi"><img alt="[IBM i]" src="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/ngibmi.gif" class="ibmdocs-image-downsize"><code class="ph codeph">MQRCCF_Q_MGR_ATTR_CONFLICT</code></dt>
+
+<dd class="dlentry" data-hd-platform="ibmiNOFLAG">Queue manager attribute error. A possible cause is that you attempted to specify
+SSLKEYR(*SYSTEM) with a nonblank queue manager CERTLABL. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_Q_MGR_CCSID_ERROR</code></dt>
+
+<dd class="dlentry">Coded character set value not valid. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_REPOS_NAME_CONFLICT</code></dt>
+
+<dd class="dlentry">Repository names not valid. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_UNKNOWN_Q_MGR</code></dt>
+
+<dd class="dlentry">Queue manager not known. </dd>
+
+
+
+<dt class="dlterm"><code class="ph codeph">MQRCCF_WRONG_CHANNEL_TYPE</code></dt>
+
+<dd class="dlentry">Channel type error. </dd>
+
+
+</dl>
+
+</dd>
+
+
+</dl>
+
+</div>
+
+</div>
+
+<aside role="complementary" aria-labelledby="d422257e10"><nav role="navigation" class="ibm-padding-top-1 ibm-padding-bottom-2 bx--row bottom-section-parent">
+<div class="familylinks ibm-margin-bottom-1 bx--col-sm-4 bx--col-md-4 bx--col-lg-8" style="list-style: none;">
+<div class="parentlink"><strong>Parent topic:</strong> <div><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="blue" width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path d="M18 6L16.6 7.4 24.1 15 3 15 3 17 24.1 17 16.6 24.6 18 26 28 16z"></path><title>Arrow right</title></svg><a data-hd-product="SSFKSJ_9.2.0" href="/docs/en/SSFKSJ_9.2.0/com.ibm.mq.ref.adm.doc/q086870_.html" title="All the available Programmable Command Formats (PCFs) are listed including their parameters (required and optional), response data and error codes." class="bottom-section-link">Definitions of the Programmable Command Formats</a></div></div>
+</div>
+
+
+</body>

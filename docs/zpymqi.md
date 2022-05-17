@@ -55,11 +55,13 @@ Any problems with Pymqi on z/OS should be reported to colinpaicemq@gmail.com.
 
 [Using the API](UsingApi.md)
 
+[API referennce](APIReference.md)
+
 [Connect and disconnect](ConnDisk.md)
 
 [Creating messages](Messages.md)
 
-[Opening and closing a queue](OpenClose)
+[Opening and closing a queue](OpenClose.md)
 
 [Simple put](SimplePut.md)
 

@@ -2,6 +2,8 @@
 
 ## Putting a message to a queue
 
+The following example puts a message to the COLIN queue.
+
 code::
 
       import pymqi 
@@ -44,7 +46,7 @@ code:
       md["Persistence"] = pymqi.CMQC.MQPER_NOT_PERSISTENT 
       md["Format"] = b'MQSTR' 
 
-      q1.put('Message from Python',md,PMO) 
+      q1.put('Message from Python',md,pmo) 
 
 ### Put with message properties
 

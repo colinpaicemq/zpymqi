@@ -1,7 +1,7 @@
 ## Message handle and message properties
 
 ## Put with message properties
-## Message properties
+
 
 The z/OS version of Pymqi has better support for message properties.
 It can accept a name of "name" or b"name".
@@ -35,6 +35,7 @@ This prints
 
       Put properties {'COLINCHAR': b'COLINAAA', 'COLINBYTE': b'COLINBYT', 'COLINFLOAT': 100.0, 'COLININT64': 7}  
 
+## Get with message properties
 
 You can use message properties in a get
 code::

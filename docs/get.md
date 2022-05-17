@@ -24,19 +24,22 @@ Rerunning it produces
     pymqi.MQMIError: MQI Error. Comp: 2, Reason 2033: FAILED: MQRC_NO_MSG_AVAILABLE QName=COLIN message= original_length=0 Verb=MQGET   
 
 ## Different data types
-On the previous page was the example *q1.put('Message from Python') *.  This puts a character string.
+On the previous page was the example *q1.put('Message from Python')*.  This puts a character string.
 
-When the data is got, it is b'Message from Python' a byte string
+When the data is got, it is *b'Message from Python'* a byte string
 
 
-### More complex getl get with MD and GMO
+### More complex get with MD and GMO
+Create a default md and gmo
 
-You can do a simple get 
-    m = q1.get(None)  
-a get and specify an MD
-    m = q1.get(None, md)
-or a get with MD and GMO
-    m = q1.get(None, md, gmo)   
+      md = pymqi.MD()
+      gmo = pymqi.GMO()
+
+You can do 
+- a simple get:  m = q1.get(None)  
+- a get and specify an MD :  m = q1.get(None, md)
+- a get with MD and GMO: m = q1.get(None, md, gmo)
+- or a get with a GMO and no md: m = q1.get(None,None,gmo)
 
 
 code::
