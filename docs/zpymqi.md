@@ -72,6 +72,7 @@ Any problems with Pymqi on z/OS should be reported to colinpaicemq@gmail.com.
 [Commit and Backout](commit.md)
 
 [Inquire and Set](inquire.md)
+
 [Subscribe](inquire.md) and [Publish](publish.md)
 
 [Using PCF](zpymqi_pcf.md)
