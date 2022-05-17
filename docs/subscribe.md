@@ -1,4 +1,4 @@
-##Subscribing to a topic
+## Subscribing to a topic
 
 The first example shows how to use a managaged object to subscribe to a topic, and get from the queue.
 The second example shows how to use a queue.
@@ -10,7 +10,7 @@ The second example shows how to use a queue.
 - It sets up a subscription Description (MQSD) and initilises it.
 - It creates a subscription and issues a sub() to the subscription.
 - It then does an sub.get from the managed option passing in an MQMD and the GMO object.
-- It displays the message
+- It displays the message.
 - It displays any properties received.
 
 Code::
