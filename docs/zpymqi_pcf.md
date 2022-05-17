@@ -69,6 +69,8 @@ Response Q Mgr Name : b'M801'
 
 
 ### PCF commands example 
+The links from these commands give example output.
+
 pcf = pymqi.PCF("CSQ9",response_wait_interval=2000,convert=True)
 <p><a href=https://colinpaicemq.github.io/zpymqi/docs/htmlOutput/inq_archive_all.html>result=pcf.inq_archive_all(cmdscope="*")</a></p>
 <p><a href=https://colinpaicemq.github.io/zpymqi/docs/htmlOutput/inq_cfstatus_backup.html>result=pcf.inq_cfstatus_backup(cfname="CSQSYSAPPL")</a></p>
@@ -128,6 +130,7 @@ code:
       # get the headers
       hh= pcf.headers() 
 
+## Parsing responses
 
 On z/OS you can have multiple messages returned for a command.  Each of these will usually have
 a PCF header, and PCF data structures.
@@ -190,34 +193,6 @@ The PCF header information can be obtained using
 ```
 This returns a list of dictionaries which contain the return code, number of parameters etc.
 
-where the commands are:
-
-- pcf.inq_qmgr() 
-- pcf.inq_chinit() 
-- pcf.inq_thread() 
-- pcf.inq_comm_info ()
-- pcf.inq_log() 
-- pcf.inq_conn()
-- pcf.inq_trace() 
-- pcf.inq_cf_names() 
-- pcf.inq_system() 
-- pcf.inq_chl_auth_records ()
-- pcf.inq_q()
-- pcf.inq_appl_status ()
-- pcf.inq_topic_names() 
-- pcf.inq_topic_status() 
-- pcf.inq_sub()
-- pcf.inq_sub_status()
-- pcf.inq_topic()
-- pcf.inq_security()
-- pcf.inq_stgclass()
-- pcf.inq_archive()
-- pcf.inq_pageset()
-- pcf.inq_usage()
-- pcf.inq_usage_log()
-- pcf.inq_q_status()
-- pcf.alter_qmgr()
-- pcf.alter_q()
 
 The data returned is from the command.  For example 
 ```
@@ -294,9 +269,9 @@ Some keyword values can be mapped from a string to a value, for example qtype is
 
 > maps to = CMQC.MQCA_CERT_LABEL, object prefix=MQQT_ 
 
-When qtype=LOCAL is used, qtype will be replace with CMQC.MQCA_CERT_LABEL, and the value will be replaced by
+When qtype=LOCAL is used, qtype will be replace with CMQC.CMQC.MQIA_Q_TYPE, and the value will be replaced by
 MQQT_LOCAL.
-This makes the definition of the parameters much easier to use.
+This makes the definition of the parameters much easier to use.  These are defined in the file pymqi/PCF.py
 
 
 |Short key          |maps to         | Object prefix|
@@ -318,6 +293,6 @@ This makes the definition of the parameters much easier to use.
 |ps|                CMQC.MQIA_PAGESET_ID| 
 |psid|              CMQC.MQIA_PAGESET_ID| 
 |qdesc|             CMQC.MQCA_Q_DESC| 
-|qtype|             CMQC.MQCA_CERT_LABEL|MQQT_| 
+|qtype|             CMQC.CMQC.MQIA_Q_TYPE|MQQT_| 
 |stgclass|          CMQC.MQCA_STORAGE_CLASS| 
 
