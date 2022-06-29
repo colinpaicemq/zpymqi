@@ -1,1 +1,158 @@
-a\\\@Ã–—¨™‰‡ˆ£@MÃ]@Ã–—¨™‰‡ˆ£@ÉÂÔ@Ã–™—K@ñù÷÷k@òğñô\\@Ó‰ƒ…•¢…„@¤•„…™@£ˆ…@Á—ƒˆ…@Ó‰ƒ…•¢…k@å…™¢‰–•@òKğ@M£ˆ…@Ó‰ƒ…•¢…]^\@¨–¤@”¨@•–£@¤¢…@£ˆ‰¢@†‰“…@…§ƒ…—£@‰•@ƒ–”—“‰•ƒ…@¦‰£ˆ@£ˆ…@Ó‰ƒ…•¢…K\@è–¤@”¨@–‚£‰•@@ƒ–—¨@–†@£ˆ…@Ó‰ƒ…•¢…@£\\@@@@ˆ££—zaa¦¦¦K—ƒˆ…K–™‡a“‰ƒ…•¢…¢aÓÉÃÅÕâÅ`òKğ\\@ä•“…¢¢@™…˜¤‰™…„@‚¨@——“‰ƒ‚“…@“¦@–™@‡™……„@£–@‰•@¦™‰£‰•‡k@¢–†£¦™…\@„‰¢£™‰‚¤£…„@¤•„…™@£ˆ…@Ó‰ƒ…•¢…@‰¢@„‰¢£™‰‚¤£…„@–•@•@Áâ@Éâ@ÂÁâÉâk\@æÉãÈÖäã@æÁÙÙÁÕãÉÅâ@ÖÙ@ÃÖÕÄÉãÉÖÕâ@ÖÆ@ÁÕè@ÒÉÕÄk@…‰£ˆ…™@…§—™…¢¢@–™@‰”—“‰…„K\@â……@£ˆ…@Ó‰ƒ…•¢…@†–™@£ˆ…@¢—…ƒ‰†‰ƒ@“•‡¤‡…@‡–¥…™•‰•‡@—…™”‰¢¢‰–•¢@•„\@“‰”‰££‰–•¢@¤•„…™@£ˆ…@Ó‰ƒ…•¢…K\\@\@Ã–•£™‰‚¤£–™¢z\@@@Ã–“‰•@×‰ƒ…\\aa\@É•ƒ“¤„…@¢£•„™„@“‰‚™™‰…¢@\a{‰•ƒ“¤„…@L¢£„‰–Kˆn{‰•ƒ“¤„…@L¢£„“‰‚Kˆn{‰•ƒ“¤„…@L¢£™‰•‡Kˆn{‰•ƒ“¤„…@L¢£„™‡Kˆn{‰•ƒ“¤„…@L£‰”…Kˆna\@É•ƒ“¤„…@”˜¢…™‰…¢@ˆ…„…™¢@\a{‰•ƒ“¤„…@Lƒ”˜ƒKˆn{‰•ƒ“¤„…@Lƒ”˜ƒ†ƒKˆn{‰•ƒ“¤„…@Lƒ”˜§ƒKˆn{‰•ƒ“¤„…@Lƒ”˜¢£™ƒKˆn£¨—…„…†@ƒˆ™@\@M\—×™–ƒ…¢¢]MÔØÓÖÕÇ@¥“¤…]^—×™–ƒ…¢¢@¦ˆ‰ƒˆÆ–™”£­½@~@À@ÔØÉÁmâãÙk@@ÔØÉÁÃÆmâãÙk@@ÔØÉÁÃÈmâãÙk@ÔØÂÁÃÆmâãÙk@@ÔØÃÁmâãÙk@@ÔØÃÁÃÆmâãÙk@@ÔØÃÁÃÈmâãÙk@@ÔØÉÁÔÖmâãÙk@@ÔØÉÁÔÖöômâãÙĞ^¢£™¤ƒ£@£‡Ä–É£À@@ÔØÓÖÕÇ@@@¦ˆ‰ƒˆ^@@—×™–ƒ…¢¢@™–¤£‰•…^Ğ^£¨—…„…†@¢£™¤ƒ£@£‡Ä–É£@„–É£^“–•‡@‚‰•™¨â…™ƒˆM„–É£@™™­½k@“–•‡@“k@“–•‡@™k@“–•‡@§]À@@@@‰†@M™@n~@“]@À@@@@@@@@“–•‡@”‰„@~@“@N@M™@`@“]@a@ò^@@@@@@@@aa@É†@£ˆ…@…“…”…•£@‰¢@—™…¢…•£@£@£ˆ…@”‰„„“…@@@@@@@@aa@‰£¢…“†@@@@@@@@‰†@M™™­”‰„½K¦ˆ‰ƒˆ@~~@§]@@@@@@@@@@@@™…£¤™•@”‰„^@@@@@@@@aa@É†@…“…”…•£@‰¢@¢”““…™@£ˆ•@”‰„k@£ˆ…•@@@@@@@@aa@‰£@ƒ•@–•“¨@‚…@—™…¢…•£@‰•@“…†£@¢¤‚™™¨@@@@@@@@‰†@M™™­”‰„½K¦ˆ‰ƒˆ@n@§]@@@@@@@@@@@@™…£¤™•@‚‰•™¨â…™ƒˆM™™k@“k@”‰„@`@ñk@§]^@@@@@@@@aa@Å“¢…@£ˆ…@…“…”…•£@ƒ•@–•“¨@‚…@—™…¢…•£@@@@@@@@aa@‰•@™‰‡ˆ£@¢¤‚™™¨@@@@@@@@™…£¤™•@‚‰•™¨â…™ƒˆM™™k@”‰„@N@ñk@™k@§]^@@@@Ğ@@@@aa@æ…@™…ƒˆ@ˆ…™…@¦ˆ…•@…“…”…•£@‰¢@•–£@@@@aa@—™…¢…•£@‰•@™™¨@@@@™…£¤™•@`ñ^Ğ{‰†„…†@•–ƒˆ™@\ÔØØâäÔâmâãÙ@MÔØÓÖÕÇ@¥]@@aa@ÔØÉÁÃÆmâèâ×mÖÆÆÓÖÁÄmâãÁãäâÀ@@ƒˆ™@\ƒ^@@ƒ@~@Õ–£@¨…£@¢¤——–™£…„^@@™…£¤™•@ƒ^Ğƒˆ™@\ÔØâèâ×mâãÁãäâmâãÙ@MÔØÓÖÕÇ@¥]@@aa@ÔØÉÁÃÆmâèâ×mÖÆÆÓÖÁÄmâãÁãäâÀ@@ƒˆ™@\ƒ^@@ƒ@~@Õ–£@¨…£@¢¤——–™£…„^@@™…£¤™•@ƒ^Ğ@MÔØÓÖÕÇ@¥]À@@ƒˆ™@\ƒ^@@ƒ@~@Õ–£@¨…£@¢¤——–™£…„^@@™…£¤™•@ƒ^Ğƒˆ™@\ÔØÉÁÃÆmÃÆmâãÁãäâmâãÙ@MÔØÓÖÕÇ@¥]À@@ƒˆ™@\ƒ^@@ƒ@~@Õ–£@¨…£@¢¤——–™£…„^@@™…£¤™•@ƒ^Ğƒˆ™@\ÔØâØØÕmâãÙ@MÔØÓÖÕÇ@¥]À@@ƒˆ™@\ƒ^@@ƒ@~@Õ–£@¨…£@¢¤——–™£…„^@@™…£¤™•@ƒ^Ğ{…•„‰†aa@@@À@@@@ñk@M—×™–ƒ…¢¢]@@ÔØÁãmâãÙ@Ğk@aa@ÔØÉÁmÁ××Ómãè×Å{„…†‰•…@ÔØÔÁ×Mk‚]@ÀkM—×™–ƒ…¢¢]@‚@Ğ„–É£@ÄÖÉã­½@~Àaa•ƒ“¤„…@L×ÃÆÔ——‰•‡Kˆn{‰•ƒ“¤„…@LÔØÔÁ×KˆnÀùùùùùùùùk@ÔØããmâãÙĞ@aa@£ˆ…@“¢£@–•…@•……„…„@†–™@Ã@£–@ƒ–”—‰“…Ğ^ƒˆ™@\@‡…£×ÃÆå“¤…MÔØÓÖÕÇ@¦ˆ£k@ÔØÓÖÕÇ@¥“¤…k@ƒˆ™@\\—æˆ£k@ƒˆ™@\\—å“¤…k@ƒˆ™@\\—×å“¤…]À@@“–•‡@‰^@@ƒˆ™@\@—^@@a\@ƒ–•¥…™£@£ˆ…@¦ˆ£@£¨—…@¥“¤…@‰•£–@@¢£™‰•‡@\a@@†–™@M‰@~@ğ^‰@L@¢‰©…–†M¦ˆ‰ƒˆÆ–™”£]a¢‰©…–†M¦ˆ‰ƒˆÆ–™”£­ğ½]^‰@NN]@@À@@@@@—@~@@¦ˆ‰ƒˆÆ–™”£­‰½M¦ˆ£]^@@@@@‰†@M—@Z~@]@‚™…’^@@Ğ@@\—æˆ£@~@^@@‰†@M—@Z~@]@@À@@@@aa@@†–™”£Ã–•¢£•£@”–„‰†‰…¢@£ˆ…@¢£™‰•‡k@¢–@¦…@•……„@–¤™@–¦•@™a¦@ƒ–—¨@@@@ƒˆ™@\@—ò@~@¢£™„¤—M—]^@@@@a\@†–™”£Ã–•¢£•£@”’…¢@‰£@—™…££¨@•„@™…”–¥…¢@£ˆ…@§§§m@†™–”@£ˆ…@†™–•£@\a@@@@\—æˆ£@~@@@@@@@@†–™”£Ã–•¢£•£M—ò]@^@a\@™…£¤™•@£ˆ…@—™…££¨@¥…™¢‰–•@@@@@\a@@Ğ@@\—×å“¤…@~@ğ^@a\@—™…¢…£@£ˆ‰¢@\a@@\—å“¤…@@~@ğ^@aa@—™…¢…£@£ˆ‰¢@@“–•‡@“Ä–É£@~@¢‰©…–†MÄÖÉã]a¢‰©…–†M„–É£]^@@“–•‡@™ƒ@~@@‚‰•™¨â…™ƒˆMÄÖÉãk@ğk@“Ä–É£k@¦ˆ£]^@@@‰†@M™ƒ@L@“Ä–É£@PP@™ƒ@n@ğ]@@@À@@@@@\—å“¤…@@@~@@@@@@@@MÄÖÉã­™ƒ½K™–¤£‰•…]M¥“¤…]@^@@@@@aa@@†–™”£Ã–•¢£•£@”–„‰†‰…¢@£ˆ…@¢£™‰•‡k@¢–@¦…@•……„@–¤™@–¦•@™a¦@ƒ–—¨@@@@@ƒˆ™@\@—ò@~@¢£™„¤—M\—å“¤…]^@@@@@a\@†–™”£Ã–•¢£•£@”’…¢@‰£@—™…££¨@•„@™…”–¥…¢@£ˆ…@§§§m@†™–”@£ˆ…@†™–•£@\a@@@@@\—×å“¤…@~@@@@@@@@†–™”£Ã–•¢£•£M—ò]@^@a\@™…£¤™•@£ˆ…@—™…££¨@¥…™¢‰–•@@@@@\a@@@@@™…£¤™•MÕäÓÓ@@]^@@@Ğ@@™…£¤™•MÕäÓÓ@@]^@aa@…“…”…•£@•–£@‰•@™™¨Ğ
+/*
+*
+* Copyright (C) Copyright IBM Corp. 1977, 2014
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* * Contributors:
+*   Colin Paice
+*
+*/
+/* Include standard libraries */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdarg.h>
+#include <time.h>
+
+/* Include mqseries headers */
+#include <cmqc.h>
+#include <cmqcfc.h>
+#include <cmqxc.h>
+#include <cmqstrc.h>
+
+
+typedef char * (*pProcess)(MQLONG value);
+pProcess whichFormat[] = { MQIA_STR,  MQIACF_STR,  MQIACH_STR,
+ MQBACF_STR,  MQCA_STR,  MQCACF_STR,  MQCACH_STR,  MQIAMO_STR,  MQIAMO64_STR};
+struct tagDoIt
+{
+  MQLONG   which;
+  pProcess routine;
+};
+typedef struct tagDoIt doIt;
+
+
+long binarySearch(doIt arr[], long l, long r, long x)
+{
+    if (r >= l) {
+        long mid = l + (r - l) / 2;
+
+        // If the element is present at the middle
+        // itself
+        if (arr[mid].which == x)
+            return mid;
+
+        // If element is smaller than mid, then
+        // it can only be present in left subarray
+        if (arr[mid].which > x)
+            return binarySearch(arr, l, mid - 1, x);
+
+        // Else the element can only be present
+        // in right subarray
+        return binarySearch(arr, mid + 1, r, x);
+    }
+
+    // We reach here when element is not
+    // present in array
+    return -1;
+}
+
+#ifdef no
+
+char *MQQSUMS_STR (MQLONG v)  // MQIACF_SYSP_OFFLOAD_STATUS
+
+{
+  char *c;
+  c = "Not yet supported";
+  return c;
+}
+
+
+
+char *MQSYSP_STATUS_STR (MQLONG v)  // MQIACF_SYSP_OFFLOAD_STATUS
+
+{
+  char *c;
+  c = "Not yet supported";
+  return c;
+}
+
+ (MQLONG v)
+{
+  char *c;
+  c = "Not yet supported";
+  return c;
+}
+
+char *MQIACF_CF_STATUS_STR (MQLONG v)
+{
+  char *c;
+  c = "Not yet supported";
+  return c;
+}
+
+
+char *MQSQQN_STR (MQLONG v)
+{
+  char *c;
+  c = "Not yet supported";
+  return c;
+}
+
+#endif
+//   {    1, (pProcess)  MQAT_STR }, // MQIA_APPL_TYPE
+#define MQMAP(a,b) {a,(pProcess) b }
+doIt DOIT[] =
+{
+//nclude <PCFMapping.h>
+#include <MQMAP.h>
+{99999999, MQTT_STR} // the last one needed for C to compile
+};
+
+
+char * getPCFValue(MQLONG what, MQLONG value, char **pWhat, char **pValue, char **pPValue)
+{
+  long i;
+  char * p;
+  /* convert the what type value into a string */
+  for (i = 0;i < sizeof(whichFormat)/sizeof(whichFormat[0]);i ++)
+  {
+     p =  whichFormat[i](what);
+     if (p != "") break;
+  }
+  *pWhat = "";
+  if (p != "")
+  {
+    //  formatConstant modifies the string, so we need our own r/w copy
+    char * p2 = strdup(p);
+    /* formatConstant makes it pretty and removes the xxx_ from the front */
+    *pWhat =        formatConstant(p2) ; /* return the pretty version     */
+  }
+  *pPValue = 0; /* preset this */
+  *pValue  = 0; // preset this
+  long lDoIt = sizeof(DOIT)/sizeof(doIt);
+  long rc =  binarySearch(DOIT, 0, lDoIt, what);
+
+   if (rc < lDoIt && rc > 0)
+   {
+     *pValue   =        (DOIT[rc].routine)(value) ;
+     //  formatConstant modifies the string, so we need our own r/w copy
+     char * p2 = strdup(*pValue);
+     /* formatConstant makes it pretty and removes the xxx_ from the front */
+     *pPValue =        formatConstant(p2) ; /* return the pretty version     */
+     return(NULL  );
+   }
+  return(NULL  ); // element not in array
+
+}

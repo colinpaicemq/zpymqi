@@ -1,1 +1,334 @@
-a\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Ã–—¨™‰‡ˆ£@ñùùñ`ñùùõ@‚¨@â£‰ƒˆ£‰•‡@Ô£ˆ…”£‰¢ƒˆ@Ã…•£™¤”k@Á”¢£…™„”kãˆ…@Õ…£ˆ…™“•„¢K@@@@@@@@@@@@@@@@@@@@@@@@Á““@Ù‰‡ˆ£¢@Ù…¢…™¥…„×…™”‰¢¢‰–•@£–@¤¢…k@ƒ–—¨k@”–„‰†¨k@•„@„‰¢£™‰‚¤£…@£ˆ‰¢@¢–†£¦™…@•„@‰£¢„–ƒ¤”…•££‰–•@†–™@•¨@—¤™—–¢…@•„@¦‰£ˆ–¤£@†……@‰¢@ˆ…™…‚¨@‡™•£…„k—™–¥‰„…„@£ˆ£@£ˆ…@‚–¥…@ƒ–—¨™‰‡ˆ£@•–£‰ƒ…@——…™@‰•@““@ƒ–—‰…¢@•„@£ˆ£‚–£ˆ@£ˆ£@ƒ–—¨™‰‡ˆ£@•–£‰ƒ…@•„@£ˆ‰¢@—…™”‰¢¢‰–•@•–£‰ƒ…@——…™@‰•¢¤——–™£‰•‡@„–ƒ¤”…•££‰–•k@•„@£ˆ£@£ˆ…@•”…¢@–†@â£‰ƒˆ£‰•‡@Ô£ˆ…”£‰¢ƒˆÃ…•£™¤”@–™@ÃæÉ@–™@Ã–™—–™£‰–•@†–™@Õ£‰–•“@Ù…¢…™ƒˆ@É•‰£‰£‰¥…¢@–™ÃÕÙÉ@•–£@‚…@¤¢…„@‰•@„¥…™£‰¢‰•‡@–™@—¤‚“‰ƒ‰£¨@—…™£‰•‰•‡@£–„‰¢£™‰‚¤£‰–•@–†@£ˆ…@¢–†£¦™…@¦‰£ˆ–¤£@¢—…ƒ‰†‰ƒk@¦™‰££…•@—™‰–™—…™”‰¢¢‰–•Kæˆ‰“…@ÃæÉ@‰¢@£ˆ…@‰•‰£‰“@¢–¤™ƒ…@†–™@£ˆ‰¢@¢–†£¦™…k@@”–„‰†‰…„@¥…™¢‰–•‰¢@”„…@¥‰“‚“…@‚¨@£ˆ…@Ã–™—–™£‰–•@†–™@Õ£‰–•“@Ù…¢…™ƒˆ@É•‰£‰£‰¥…¢MÃÕÙÉ]@£@£ˆ…@É•£…™•…£@„„™…¢¢@†£—zaa†£—K—¨£ˆ–•K–™‡KâãÉÃÈãÉÕÇ@ÔÁãÈÅÔÁãÉâÃÈ@ÃÅÕãÙäÔ@ÁÕÄ@ÃÕÙÉ@ÄÉâÃÓÁÉÔ@ÁÓÓ@æÁÙÙÁÕãÉÅâ@æÉãÈÙÅÇÁÙÄ@ãÖ@ãÈÉâ@âÖÆãæÁÙÅk@ÉÕÃÓäÄÉÕÇ@ÁÓÓ@ÉÔ×ÓÉÅÄ@æÁÙÙÁÕãÉÅâ@ÖÆÔÅÙÃÈÁÕãÁÂÉÓÉãè@ÁÕÄ@ÆÉãÕÅââk@ÉÕ@ÕÖ@ÅåÅÕã@âÈÁÓÓ@âãÉÃÈãÉÕÇ@ÔÁãÈÅÔÁãÉâÃÈÃÅÕãÙäÔ@ÖÙ@ÃÕÙÉ@ÂÅ@ÓÉÁÂÓÅ@ÆÖÙ@ÁÕè@â×ÅÃÉÁÓk@ÉÕÄÉÙÅÃã@ÖÙ@ÃÖÕâÅØäÅÕãÉÁÓÄÁÔÁÇÅâ@ÖÙ@ÁÕè@ÄÁÔÁÇÅâ@æÈÁãâÖÅåÅÙ@ÙÅâäÓãÉÕÇ@ÆÙÖÔ@ÓÖââ@ÖÆ@äâÅk@ÄÁãÁ@ÖÙ×ÙÖÆÉãâk@æÈÅãÈÅÙ@ÉÕ@ÁÕ@ÁÃãÉÖÕ@ÖÆ@ÃÖÕãÙÁÃãk@ÕÅÇÓÉÇÅÕÃÅ@ÖÙ@ÖãÈÅÙãÖÙãÉÖäâ@ÁÃãÉÖÕk@ÁÙÉâÉÕÇ@Öäã@ÖÆ@ÖÙ@ÉÕ@ÃÖÕÕÅÃãÉÖÕ@æÉãÈ@ãÈÅ@äâÅ@ÖÙ×ÅÙÆÖÙÔÁÕÃÅ@ÖÆ@ãÈÉâ@âÖÆãæÁÙÅK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\aa\@\@×¨£ˆ–•@ÔØ@Å§£…•¢‰–•K@Ó–¦@“…¥…“@”˜‰@¦™——…™¢K@ãˆ…¢…@—™…¢…•£@@\@“–¦`“…¥…“@‰•£…™†ƒ…@£–@£ˆ…@ÔØÉ@}Ã}@“‰‚™™¨K@\@\@Á¤£ˆ–™z@ÓK@â”‰£ˆ¢–•@M“¢”‰£ˆ¢–•|–—…•`•…£¦–™’¢Kƒ–K¤’]@\@Á¤£ˆ–™z@Ä™‰¤¢©@â¤ƒˆ–‘„@M„¢¤ƒˆ@£@©£–K‰–]@\@©aÖâ@ƒˆ•‡…¢z@Ã–“‰•@×‰ƒ…Mƒ–“‰•—‰ƒ…ó|‡”‰“Kƒ–”]@\@\@ÄÉâÃÓÁÉÔÅÙ@\@è–¤@™…@†™……@£–@¤¢…@£ˆ‰¢@ƒ–„…@‰•@•¨@¦¨@¨–¤@“‰’…k@¢¤‚‘…ƒ£@£–@£ˆ…@\@×¨£ˆ–•@P@ÉÂÔ@„‰¢ƒ“‰”…™¢@P@ƒ–—¨™‰‡ˆ£¢K@É@”’…@•–@™…—™…¢…•££‰–•¢@\@‚–¤£@£ˆ…@¢¤‰£‚‰“‰£¨@–†@£ˆ‰¢@¢–†£¦™…@†–™@•¨@—¤™—–¢…K@É£@‰¢@\@—™–¥‰„…„@Áâ`Éâ@¦‰£ˆ–¤£@¦™™•£¨@–†@•¨@’‰•„k@…‰£ˆ…™@…§—™…¢¢@–™@\@‰”—“‰…„K@â–@£ˆ…™…K@\@\@\a¢££‰ƒ@ƒˆ™@—¨”˜…mÔØÉÕØÔ×mm„–ƒmm­½@~ÔØÉÕØÔ×Mƒ–••mˆ•„“…k@”¢‡mˆ•„“…k@¢”—–k@•”…k@—„k@£¨—…k@¥“¤…m“…•‡£ˆ]@à@àÃ““¢@£ˆ…@ÔØÉ}¢@ÔØÉÕØÔ×@†¤•ƒ£‰–•@à^¢££‰ƒ@×¨Ö‚‘…ƒ£\@—¨”˜…mÔØÉÕØÔ×M×¨Ö‚‘…ƒ£@\¢…“†k@×¨Ö‚‘…ƒ£@\™‡¢]@À@@ÔØÓÖÕÇ@ƒ–”—mƒ–„…@~@ÔØÃÃmäÕÒÕÖæÕk@ƒ–”—m™…¢–•@~@ÔØÙÃmÕÖÕÅ^@@“–•‡@@@@ƒ–••mˆ•„“…@~@ÔØÈÃmäÕäâÁÂÓÅmÈÃÖÕÕ^@@ÔØÈÔâÇ@”¢‡mˆ•„“…@~@ÔØÈÔmäÕäâÁÂÓÅmÈÔâÇ^aa—™‰•£†Mñööùz@¢‰©…@–†@ˆ•„“…@l„à•k¢‰©…–†M”¢‡mˆ•„“…@]]^@@ÔØÃÈÁÙå@•”…@~@ÀÔØÃÈÁÙåmÄÅÆÁäÓãÐ^@@ƒˆ™@\—™–—…™£¨m•”…^aa@ãˆ‰¢@”¤¢£@‚…@×¨m¢¢‰©…m£k@‚…ƒ¤¢…@@×¨Á™‡m×™¢…ã¤—“…@KKK@{@™…£¤™•¢@£ˆ‰¢@@×¨m¢¢‰©…m£@—™–—…™£¨m•”…m“…•‡£ˆ@~@ð^@@“–•‡@“–•‡@““^@@“–•‡@‰”—–m–—£‰–•¢“^@@‰•£@@‰”—–m–—£‰–•¢@^@@ÔØÓÖÕÇ@„£m“…•‡£ˆ@^@@ÔØÓÖÕÇ@—™–—…™£¨m£¨—…^@@ÔØÓÖÕÇ@¥“¤…m“…•‡£ˆ^@@‰•£@@—„m–—£‰–•¢^@@×¨Ö‚‘…ƒ£@\™¥^@@‰•£@@—¨Ö—£‰–•¢@~@ð^{‰†„…†@•–òó{‰†@×èmÔÁÑÖÙmåÅÙâÉÖÕ~~ò@@‰†@MZ×¨Á™‡m×™¢…ã¤—“…M™‡¢k@“““¢{“““k{…“¢…@@‰†@MZ×¨Á™‡m×™¢…ã¤—“…M™‡¢k@“Ó“¨{“““k{…•„‰†{…•„‰†@@‰†@MZ×¨Á™‡m×™¢…ã¤—“…M™‡¢k@“Ó‰×âè{‰‰‰‰O‰k@@aa@—¨Ö—£‰–•¢@‰¢@–—£‰–•“@@@@@@@@@@@@@@@@@@@@@@@@Pƒ–••mˆ•„“…k@P”¢‡mˆ•„“…k@aa@“Ó@@@@@@@@@@@@@@@@@@@@@@@@P‰”—–m–—£‰–•¢@k@aa@‰@@@@@@@@@@@@@@@@@@@@@@@@P—™–—…™£¨m•”…k@P—™–—…™£¨m•”…m“…•‡£ˆk@aa@×âè@{@@@@@@@@@@@@@@@@@@@@@@@@P—„m–—£‰–•¢k@aa@‰@@@@@@@@@@@@@@@@@@@@@@@@P—™–—…™£¨m£¨—…kP¥“¤…m“…•‡£ˆkP—¨Ö—£‰–•¢]]@À@@aa@‰‰@@O‰@@@@™…£¤™•@ÕäÓÓ^@@Ð@@aa„…‚¤‡@@“–•‡@@—•“@~@—™–—…™£¨m•”…m“…•‡£ˆ^@@ÔØÉÔ×Ö@‰”—–@~@ÀÔØÉÔ×ÖmÄÅÆÁäÓãÐ^@@aa@‰†@¦…@™…@‰•@¢ƒ‰‰@”–„…@¦…@•……„@£–@ƒ–•¥…™£@…¨…@ƒ£ƒˆ…™@†™–”@¢ƒ‰‰@£–@ÅÂÃÄÉÃ@@mmò…m“M‰”—–Kâ£™¤ƒÉ„k¢‰©…–†M‰”—–Kâ£™¤ƒÉ„]]^@@„£m“…•‡£ˆ@~@¥“¤…m“…•‡£ˆ^@@aa@—™…¢…£@£ˆ‰¢@@‰”—–KÙ…˜¤…¢£…„ÃÃâÉÄ@~@ôó÷^@aa@—“…¢…@™…£¤™•@‰•@ÁâÃÉÉ@@ÔØ×Ä@—„@~@ÀÔØ×ÄmÄÅÆÁäÓãÐ^@@mmò…m“M—„Kâ£™¤ƒÉ„k¢‰©…–†M—„Kâ£™¤ƒÉ„]]^@@ƒˆ™@‰”—–m•”…­ñðòô½^@@‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™@~@‰”—–m•”…^@@‰”—–KÙ…£¤™•…„Õ”…KåâÂ¤†â‰©…@~@¢‰©…–†M‰”—–m•”…]^@@ƒˆ™@\@ÅÕ”…^@@ÅÕ”…@~@Mƒˆ™@\]@”““–ƒM—™–—…™£¨m•”…m“…•‡£ˆ]^@@”…”ƒ—¨MÅÕ”…k—™–—…™£¨m•”…k—™–—…™£¨m•”…m“…•‡£ˆ]^@@mmò…m“MÅÕ”…k—™–—…™£¨m•”…m“…•‡£ˆ]^@@‰”—–KÖ—£‰–•¢@~@‰”—–m–—£‰–•¢@O@@ÔØÉÔ×ÖmÃÖÕåÅÙãmåÁÓäÅ@@@@@@@@@@@@@@@@@^@@—„KÖ—£‰–•¢@@@~@—„m–—£‰–•¢^@@•”…Kåâ×£™@~@ÅÕ”…@@@@@@@@^@@aa@•……„@£ˆ…@ÅÂÃÄÉÃ@¥…™¢‰–•@–†@‰£k@•–£@ÁâÃÉÉ@@•”…KåâÓ…•‡£ˆ@~@MÔØÓÖÕÇ]@—™–—…™£¨m•”…m“…•‡£ˆ^@@¥–‰„@\¥“¤…@~@ÕäÓÓ^@@ÔØÈÃÖÕÕ@@ˆÃ–••^@@@@@@aa@•@‰•£@@ˆÃ–••@~@MÔØÈÃÖÕÕ]@ƒ–••mˆ•„“…^@aa@ƒ–¥…™£@†™–”@“–•‡@£–@‰•£@M@×–¢¢‰‚“…@„‰††…™…•£@“…•‡£ˆ¢]@@¥“¤…@~@M×ÔØÂèãÅ]”““–ƒM¥“¤…m“…•‡£ˆ]^@@‰•£@‰Ó––—^@@aa@“––—@‰†@£ˆ…@‚¤††…™@¦…@‡–£@¦¢@£––@¢”““K@@aa@£ˆ‰¢@‡…£¢@™–¤•„@£ˆ…@—™–‚“…”@£ˆ£@„£m“…•‡£ˆ@‰¢@•–£@™…£¤™•…„@‰†@“…•‡£ˆ@–†@¥“¤…@n@‚¤††…™@@aa@¦…@‘¤¢£@“––—@‡££‰•‡@@‚‰‡‡…™@‚¤††…™@@†–™@M@‰Ó––—@~@ð^@‰Ó––—@L@ñð^‰Ó––—NN]@@À@@@@“–•‡@“ñk“òk“ók“ô^@@@@“ñ@~@—™–—…™£¨m•”…m“…•‡£ˆ^@@@@“ñ@~@—™–—…™£¨m£¨—…^@@@@“ò@~@¥“¤…m“…•‡£ˆ^@@@@“ó@~@„£m“…•‡£ˆ^@@@@ÔØÉÕØÔ×MˆÃ–••k@”¢‡mˆ•„“…k@P‰”—–k@P•”…k@P—„k@P—™–—…™£¨m£¨—…k@¥“¤…m“…•‡£ˆk@@@@@@¥“¤…k@P„£m“…•‡£ˆk@Pƒ–”—mƒ–„…k@Pƒ–”—m™…¢–•]^@@@@ÄÅÂäÇÉÆM§ÃÃkƒ–”—mƒ–„…]@@@@@@@À@@@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×ð@™ƒ@l„@™¢@l„@l¢@„“@l„à•kƒ–”—mƒ–„…k@@ƒ–”—m™…¢–•kÔØÙÃmâãÙMƒ–”—m™…¢–•]k@„£m“…•‡£ˆ]^@@@@@@@Ð@@@@ÄÅÂäÇÉÆM§ÉÕØÔ×kƒ–”—mƒ–„…]@@@@@@@À@@@@@@@@@‰†@M@ƒ–”—mƒ–„…@~~@ð]@À@@@@@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×ñ@—™–—…™£¨@•”…@M“…•‡£ˆ@l„]à•k‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆ]^@@@@@@@@@@@—™‰•£È…§M¢£„–¤£k‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™k‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆ@]^@@@@@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×ò@£¨—…@l¢@¥“¤…“…•@l„@„£“…•@l„à•kÔØãè×ÅmâãÙM—™–—…™£¨m£¨—…]k@@@@@@@@@@@@@@@@@@@@@@@¥“¤…m“…•‡£ˆk„£m“…•‡£ˆ]^@@@@@@@@@@@aa@—™‰•£†MÃ–”—‰“…„@l¢@l¢Kà•k@mmÄÁãÅmmk@mmãÉÔÅmm]^@@@@@@@@@@@††“¤¢ˆM¢£„–¤£]^@@@@@@@@@@@Ð@@@@@@@@@…“¢…@@@@@@@@@À@@@@@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×ñ@—™–—…™£¨@•”…@M“…•‡£ˆ@l„]à•k‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆ]^@@@@@@@@@@@—™‰•£È…§M¢£„–¤£kP‰”—–k¢‰©…–†M‰”—–]]^@@@@@@@@@@@—™‰•£È…§M¢£„–¤£kP—„k¢‰©…–†M—„]]^@@@@@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×ñ@‚…†–™…z—™–—Ó…•@l“„@¥“Ó…•@l“„@„£Ó…•@l“„à•k“ñk“òk“ó]^@@@@@@@@@Ð@@@@@@@Ð@@@@aa@–•“¨@“––—@‰†@£ˆ…@‚¤††…™@¦¢@£––@¢”““@@@@‰†@M@ƒ–”—m™…¢–•@Z~@ÔØÙÃm×ÙÖ×ÅÙãèmåÁÓäÅmãÖÖmÂÉÇ]@‚™…’^@@aa@òôöù@@@@aa@¦…@•……„@£–@”’…@£ˆ…@‚¤††…™@‚‰‡‡…™k@•„@‡…£@£ˆ…@¢”…@—™–—…™¨@‡‰•K@@@@‰†@M¥“¤…m“…•‡£ˆ@L@ñðòô]@@@@@@@@¥“¤…m“…•‡£ˆ@~@óò÷ö÷^@@@@…“¢…@@@@@@@@¥“¤…m“…•‡£ˆ@~@¥“¤…m“…•‡£ˆ@\@ò^@@@@‰†@M¥“¤…m“…•‡£ˆ@n@ñð@\@ñðòô@\@ñðòô]@@aa@ñð@ÔÂ@@@@@@@@‚™…’^@aa@™…£¤™•@¢¨‰•‡@£––@‚‰‡@@@@¥“¤…@@@@@@@~@M×ÔØÂèãÅ]@™…““–ƒM¥“¤…k@¥“¤…m“…•‡£ˆ]^@@@@‰”—–KÖ—£‰–•¢@~@@ÔØÉÔ×ÖmÉÕØm×ÙÖ×mäÕÄÅÙmÃäÙâÖÙ@O@@ÔØÉÔ×ÖmÃÖÕåÅÙãmåÁÓäÅ@@@@@^@@@@ÄÅÂäÇÉÆM§ÉÕØÔ×kƒ–”—mƒ–„…]@@@@@@@À@@@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×ó@Ù…““–ƒ£…@‚¤††…™K@â‰©…@•–¦@l„à•k¥“¤…m“…•‡£ˆ]^@@@@@@@@@††“¤¢ˆM¢£„–¤£]^@@@@@@@Ð@@Ð@@ÄÅÂäÇÉÆM§ÉÕØÔ×kƒ–”—mƒ–„…]@@À@@@‰†@Mƒ–”—mƒ–„…@~~@ð]@@@À@@@@@—™‰•£†MƒzÔØÉÕØÔ×ô@—™–—…™£¨@•”…@M“…•‡£ˆ@l„]à•k‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆ]^@@@@@—™‰•£È…§M¢£„–¤£k‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™k‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆ@]^@@@@@‰†@M„£m“…•‡£ˆ@~~@ð]@@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×Ä£@“…•‡£ˆ@‰¢@©…™–à•]^@@@@@…“¢…@@@@@À@@@@@@@—™‰•£†MƒzÔØÉÕØÔ×õ@—™–—…™£¨@l¢@¥“¤…K“…•‡£ˆMl„]à•k@ÔØãè×ÅmâãÙM—™–—…™£¨m£¨—…]k@„£m“…•‡£ˆ]^@@@@@@@—™‰•£È…§M¢£„–¤£k¥“¤…k„£m“…•‡£ˆ@]^@@@@@Ð@@@Ð@@@††“¤¢ˆM¢£„–¤£]^@@Ð@@ÔØÓÖÕÇ@™…£¤™•m“…•‡£ˆ^@@‰†@M¥“¤…m“…•‡£ˆ@n@„£m“…•‡£ˆ]@@@@™…£¤™•m“…•‡£ˆ@~@„£m“…•‡£ˆ^@@…“¢…@@@@™…£¤™•m“…•‡£ˆ@~@¥“¤…m“…•‡£ˆ^@@†™……MÅÕ”…]^@@a\@@\@ãˆ…¢…@““@¤¢…@¢@™£ˆ…™@£ˆ•@¨@£–@™…£¤™•@@ƒˆ™ƒ£…™@¢£™‰•‡@@\a@@¢¦‰£ƒˆM—™–—…™£¨m£¨—…]À@@@@a\@Â––“…•@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÂÖÖÓÅÁÕz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…M{‰†„…†@•–òó@@@@{‰†@×èmÔÁÑÖÙmåÅÙâÉÖÕ~~ò@@@@@@@@@@@M‰¢{“““]k@@@@{…“¢…@@@@@@@@@@@M‰¨{“““]k@@@@{…•„‰†{…•„‰†@@@@@@@@@@@M‰“¢{“““]k@@@@@@@@@@@@\MÔØÂÖÖÓ\]¥“¤…kM“–•‡]„£m“…•‡£ˆk@@@aa@‰“@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@aa@×âè{@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•]^@@aa@““@@@@@@‚™…’^@@@@a\@Â¨£…`¢£™‰•‡@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÂèãÅmâãÙÉÕÇz{‰†„…†@•–òó@@@@{‰†@×èmÔÁÑÖÙmåÅÙâÉÖÕ~~ò@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM¢{“““]k@@@@{…“¢…@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM¨{“““]k@@@@{…•„‰†{…•„‰†@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM×âè{“¢{““]k@@@@@@@@@@@@M×ÔØÂèãÅ]¥“¤…k@M×¨m¢¢‰©…m£]™…£¤™•m“…•‡£ˆk@aa@×âè{@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@aa@“@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@aa@×âè{@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•]^@aa@““@@@@@@@‚™…’^@@@@a\@ø`‚‰£@‰•£…‡…™@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÉÕãøz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM‚“¢{““]k@@@@@@@@@@@@\M×ÔØÉÕãø]¥“¤…k@@@aa@‚@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@aa“@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@aa@×âè{@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•@aa““@@@@@@@@@@]^@@@@@@‚™…’^@@@@a\@ñö`‚‰£@‰•£…‡…™@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÉÕãñöz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MMˆ“¢{““]k@@@@@@@@@@@@\M×ÔØÉÕãñö]¥“¤…k@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•@@@@@@@@@@]^@@@@@@‚™…’^@@@@a\@óò`‚‰£@‰•£…‡…™@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÉÕãóòz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM‰“¢{““]k@@@@@@@@@@@@\M×ÔØÉÕãóò]¥“¤…k@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•@@@@@@@@@@]^@@@@@@‚™…’^@@@@a\@öô`‚‰£@‰•£…‡…™@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÉÕãöôz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MMÓ“¢{““]k@@@@@@@@@@@@\M×ÔØÉÕãöô]¥“¤…k@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•@@@@@@@@@@]^@@@@@@‚™…’^@@@@a\@óò`‚‰£@†“–£‰•‡`—–‰•£@•¤”‚…™@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÆÓÖÁãóòz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM†“¢{““]k@@@@@@@@@@@@\M×ÔØÆÓÖÁãóò]¥“¤…k@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•]^@@@@@@‚™…’^@@@@a\@öô`‚‰£@†“–£‰•‡`—–‰•£@•¤”‚…™@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÆÓÖÁãöôz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM„“¢{““]k@@@@@@@@@@@@\M×ÔØÆÓÖÁãöô]¥“¤…k@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•]^@@@@@@‚™…’^@@@@a\@â£™‰•‡@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmâãÙÉÕÇzaa@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…Maa@@@@M¢{“¢{““]kaa@@{‰†@×èmÔÁÑÖÙmåÅÙâÉÖÕ~~òaa@@@@@@@@@M¢{“¢{““]kaa@@{…“¢…aa@@@@@@@@@M¨{“¨{“““]kaa@@{…•„‰†@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM×âè{“¢{““]k@@@@@@@@@@@@M×ÔØÃÈÁÙ]¥“¤…k@M×¨m¢¢‰©…m£]™…£¤™•m“…•‡£ˆk@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•]^@@@@@@‚™…’^@@@@a\@ÕäÓÓ@¥“¤…@\a@@@@ƒ¢…@ÔØãè×ÅmÕäÓÓz@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM¢“¢{““]k@@@@@@@@@@@@ÕäÓÓk@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•]^@@@@@@‚™…’^@@@@„…†¤“£z@@@@@@™¥@~@×¨mÂ¤‰“„å“¤…MM¢“¢{““]k@@@@@@@@@@@@ÕäÓÓk@@@@@@@@@@@@M“–•‡]„£m“…•‡£ˆk@@@@@@@@@@@@M×ÔØÂèãÅ]‰”—–KÙ…£¤™•…„Õ”…Kåâ×£™kM×¨m¢¢‰©…m£]@‰”—–KÙ…£¤™•…„Õ”…KåâÓ…•‡£ˆk@@@@@@@@@@@@M“–•‡]ƒ–”—mƒ–„…k@M“–•‡]ƒ–”—m™…¢–•]^@@@@@@‚™…’^@@Ð@@†™……M¥“¤…]^@@™…£¤™•@™¥^Ð
+/***********************************************************
+Copyright 1991-1995 by Stichting Mathematisch Centrum, Amsterdam,
+The Netherlands.
+
+                        All Rights Reserved
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the names of Stichting Mathematisch
+Centrum or CWI or Corporation for National Research Initiatives or
+CNRI not be used in advertising or publicity pertaining to
+distribution of the software without specific, written prior
+permission.
+
+While CWI is the initial source for this software, a modified version
+is made available by the Corporation for National Research Initiatives
+(CNRI) at the Internet address ftp://ftp.python.org.
+
+STICHTING MATHEMATISCH CENTRUM AND CNRI DISCLAIM ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH
+CENTRUM OR CNRI BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL
+DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+******************************************************************/
+/*
+ * Python MQ Extension. Low level mqi wrappers. These present a
+ * low-level interface to the MQI 'C' library.
+ *
+ * Author: L. Smithson (lsmithson@open-networks.co.uk)
+ * Author: Dariusz Suchojad (dsuch at zato.io)
+ * z/OS changes: Colin Paice(colinpaice3@gmail.com)
+ *
+ * DISCLAIMER
+ * You are free to use this code in any way you like, subject to the
+ * Python & IBM disclaimers & copyrights. I make no representations
+ * about the suitability of this software for any purpose. It is
+ * provided "AS-IS" without warranty of any kind, either express or
+ * implied. So there.
+ *
+ *
+ */
+
+static char pymqe_MQINQMP__doc__[] =
+"MQINQMP(conn_handle, msg_handle, smpo, name, pd, type, value_length) \
+ \
+Calls the MQI's MQINQMP function \
+";
+
+static PyObject* pymqe_MQINQMP(PyObject *self, PyObject *args) {
+
+  MQLONG comp_code = MQCC_UNKNOWN, comp_reason = MQRC_NONE;
+
+  long    conn_handle = MQHC_UNUSABLE_HCONN;
+  MQHMSG msg_handle = MQHM_UNUSABLE_HMSG;
+//printf("1669: size of handle %d\n",sizeof(msg_handle ));
+  MQCHARV name = {MQCHARV_DEFAULT};
+  char *property_name;
+// This must be Py_ssize_t, because  PyArg_ParseTuple ... # returns this
+  Py_ssize_t property_name_length = 0;
+  long long ll;
+  long impo_optionsl;
+  int  impo_options ;
+  MQLONG data_length ;
+  MQLONG property_type;
+  MQLONG value_length;
+
+  int  pd_options;
+  PyObject *rv;
+  int  pyOptions = 0;
+
+#ifdef no23
+#if PY_MAJOR_VERSION==2
+  if (!PyArg_ParseTuple(args, "llls#lll",
+#else
+  if (!PyArg_ParseTuple(args, "lLly#lll",
+#endif
+#endif
+  if (!PyArg_ParseTuple(args, "lLi"PSY"#iiii|i",  // pyOptions is optional
+                        &conn_handle, &msg_handle, // lL
+                        &impo_options , // i
+                        &property_name, &property_name_length, // PSY #
+                        &pd_options, // i
+                        &property_type,&value_length,&pyOptions)) {  // ii  |i
+    return NULL;
+  }
+  //debug
+  long  pnl = property_name_length;
+  MQIMPO impo = {MQIMPO_DEFAULT};
+  // if we are in ascii mode we need to convert eye catcher from ascii to EBCDIC
+  __a2e_l(impo.StrucId,sizeof(impo.StrucId));
+  data_length = value_length;  // preset this
+  impo.RequestedCCSID = 437; // please return in ASCII
+  MQPD pd = {MQPD_DEFAULT};
+  __a2e_l(pd.StrucId,sizeof(pd.StrucId));
+
+  char impo_name[1024];
+  impo.ReturnedName.VSPtr = impo_name;
+  impo.ReturnedName.VSBufSize = sizeof(impo_name);
+
+  char * EName;
+  EName = (char *) malloc(property_name_length);
+  memcpy(EName,property_name,property_name_length);
+  __a2e_l(EName,property_name_length);
+
+  impo.Options = impo_options |  MQIMPO_CONVERT_VALUE                 ;
+  pd.Options   = pd_options;
+
+  name.VSPtr = EName        ;  // need the EBCDIC version of it, not ASCII
+  name.VSLength = (MQLONG) property_name_length;
+
+  void *value = NULL;
+  MQHCONN  hConn;      // an int
+  hConn = (MQHCONN) conn_handle; // covert from long to int ( Possible different lengths)
+  value = (PMQBYTE)malloc(value_length);
+
+  int iLoop;
+  // loop if the buffer we got was too small.
+  // this gets round the problem that data_length is not returned if length of value > buffer
+  // we just loop gtting a bigger buffer
+  for ( iLoop = 0; iLoop < 10;iLoop++)
+  {
+    long l1,l2,l3,l4;
+    l1 = property_name_length;
+    l1 = property_type;
+    l2 = value_length;
+    l3 = data_length;
+    MQINQMP(hConn, msg_handle, &impo, &name, &pd, &property_type, value_length,
+      value, &data_length, &comp_code, &comp_reason);
+    DEBUGIF(xCC,comp_code)
+       {
+         printf("c:MQINQMP0 rc %d rs %d %s dl %d\n",comp_code,  comp_reason,MQRC_STR(comp_reason), data_length);
+       }
+    DEBUGIF(xINQMP,comp_code)
+       {
+         if ( comp_code == 0) {
+           printf("c:MQINQMP1 property name (length %d)\n",impo.ReturnedName.VSLength);
+           printHex(stdout,impo.ReturnedName.VSPtr,impo.ReturnedName.VSLength );
+           printf("c:MQINQMP2 type %s valuelen %d datalen %d\n",MQTYPE_STR(property_type),
+                       value_length,data_length);
+           // printf("Compiled %s %s.\n", __DATE__, __TIME__);
+           fflush(stdout);
+           }
+         else
+         {
+           printf("c:MQINQMP1 property name (length %d)\n",impo.ReturnedName.VSLength);
+           printHex(stdout,&impo,sizeof(impo));
+           printHex(stdout,&pd,sizeof(pd));
+           printf("c:MQINQMP1 before:propLen %ld valLen %ld dataLen %ld\n",l1,l2,l3);
+         }
+       }
+    // only loop if the buffer was too small
+    if ( comp_reason != MQRC_PROPERTY_VALUE_TOO_BIG) break;  // 2469
+
+    // we need to make the buffer bigger, and get the same propery again.
+    if (value_length < 1024)
+        value_length = 32767;
+    else
+        value_length = value_length * 2;
+    if (value_length > 10 * 1024 * 1024)  // 10 MB
+        break; // return saying too big
+    value       = (PMQBYTE) realloc(value, value_length);
+
+    impo.Options =  MQIMPO_INQ_PROP_UNDER_CURSOR |  MQIMPO_CONVERT_VALUE     ;
+
+    DEBUGIF(xINQMP,comp_code)
+       {
+         printf("c:MQINQMP3 Reallocate buffer. Size now %d\n",value_length);
+         fflush(stdout);
+       }
+  }
+  DEBUGIF(xINQMP,comp_code)
+  {
+   if (comp_code == 0)
+   {
+     printf("c:MQINQMP4 property name (length %d)\n",impo.ReturnedName.VSLength);
+     printHex(stdout,impo.ReturnedName.VSPtr,impo.ReturnedName.VSLength );
+     if (data_length == 0)
+        printf("c:MQINQMPData length is zero\n");
+     else
+     {
+       printf("c:MQINQMP5 property %s value.length(%d)\n", MQTYPE_STR(property_type), data_length);
+       printHex(stdout,value,data_length );
+     }
+   }
+   fflush(stdout);
+  }
+
+
+  MQLONG return_length;
+  if (value_length > data_length)
+    return_length = data_length;
+  else
+    return_length = value_length;
+
+  free(EName);
+  /*
+  * These all use "s" rather than "y" to return a character string
+  */
+  switch(property_type){
+    /* Boolean value */
+    case MQTYPE_BOOLEAN:
+      rv = Py_BuildValue(
+#ifdef no23
+    #if PY_MAJOR_VERSION==2
+           "(is#lll)",
+    #else
+           "(iy#lll)",
+    #endif
+#endif
+           "(ils#lll)",
+            *(MQBOOL*)value,(long)data_length,   // il
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,  // PSY#
+            (long)comp_code, (long)comp_reason);  // ll
+      break;
+
+    /* Byte-string value */
+    case MQTYPE_BYTE_STRING:
+#ifdef no23
+    #if PY_MAJOR_VERSION==2
+      rv = Py_BuildValue("(s#lll)",
+    #else
+      rv = Py_BuildValue("(y#lll)",
+    #endif
+#endif
+      rv = Py_BuildValue("("PSY"#ls#ll)",
+            (PMQBYTE)value, (Py_ssize_t)return_length, // PSY#
+            (long)data_length, // l
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength, // PSY#
+            (long)comp_code, (long)comp_reason); // ll
+       break;
+
+    /* 8-bit integer value */
+    case MQTYPE_INT8:
+      rv = Py_BuildValue("(bls#ll)",
+            *(PMQINT8)value,   // b
+            (long)data_length, //l
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,  // PSY#
+            (long)comp_code, (long)comp_reason //ll
+          );
+      break;
+
+    /* 16-bit integer value */
+    case MQTYPE_INT16:
+      rv = Py_BuildValue("(hls#ll)",
+            *(PMQINT16)value,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason
+          );
+      break;
+
+    /* 32-bit integer value */
+    case MQTYPE_INT32:
+      rv = Py_BuildValue("(ils#ll)",
+            *(PMQINT32)value,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason
+          );
+      break;
+
+    /* 64-bit integer value */
+    case MQTYPE_INT64:
+      rv = Py_BuildValue("(Lls#ll)",
+            *(PMQINT64)value,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason
+          );
+      break;
+
+    /* 32-bit floating-point number value */
+    case MQTYPE_FLOAT32:
+      rv = Py_BuildValue("(fls#ll)",
+            *(PMQFLOAT32)value,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason);
+      break;
+
+    /* 64-bit floating-point number value */
+    case MQTYPE_FLOAT64:
+      rv = Py_BuildValue("(dls#ll)",
+            *(PMQFLOAT64)value,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason);
+      break;
+
+    /* String value */
+    case MQTYPE_STRING:
+//      rv = Py_BuildValue(
+//    "(s#ls#ll)",
+//  #if PY_MAJOR_VERSION==2
+//         "(s#ls#ll)",
+//  #else
+//         "(y#ly#lll)",
+//  #endif
+      rv = Py_BuildValue("("PSY"#ls#ll)",
+            (PMQCHAR)value, (Py_ssize_t)return_length,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason);
+      break;
+
+    /* NULL value */
+    case MQTYPE_NULL:
+      rv = Py_BuildValue("(sls#ll)",
+            NULL,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason);
+      break;
+
+    default:
+      rv = Py_BuildValue("(sls#ll)",
+            NULL,
+            (long)data_length,
+            (PMQBYTE)impo.ReturnedName.VSPtr,(Py_ssize_t) impo.ReturnedName.VSLength,
+            (long)comp_code, (long)comp_reason);
+      break;
+  }
+
+  free(value);
+
+  return rv;
+}
+
